@@ -1,0 +1,170 @@
+{
+  "manifest_sha256": "95d15515ee98d888109ec3b7634c0832ff80f489605526ae70b9af39fa47b8d4",
+  "prediction_provenance": {
+    "manifest_sha256": "95d15515ee98d888109ec3b7634c0832ff80f489605526ae70b9af39fa47b8d4",
+    "frames": [
+      {
+        "frame": "004768",
+        "rgb_sha256": "b2c3778768c4d362a40c41e5eff9193e719eb927d751f7cb61d9624a93a50805",
+        "semantic_sha256": "dee1ba85f1ee916534ce44bddc2f255db9cee9f446e9dad2bf48aae0f514a76d",
+        "dav2_sha256": "c5a783b333e32d473999fa343215916ab09d299da29d24b52b4b832dd9e40ffc",
+        "dav2_inference_s": 0.7970773420000015
+      },
+      {
+        "frame": "000224",
+        "rgb_sha256": "596d37f14d6617c3212e4f521a472a4043a6111ddc4169e2552c2b7cdbbef60c",
+        "semantic_sha256": "f6e4de43226a1ce73953e15cc6bd1f241930b3fa07ce0fc2a702a0fce0cbe52a",
+        "dav2_sha256": "edc7f626cb183a6219e4b9cf2dcd860ea7c167bcda1e0eb03ed3b9d46f63777c",
+        "dav2_inference_s": 0.3119348230000014
+      },
+      {
+        "frame": "003748",
+        "rgb_sha256": "9e74e6b94b8f1d921d9c8584cdfa06d67a97e6c02998def9101415d3ec1e01df",
+        "semantic_sha256": "f66e710b8bc9e9e0cf1c7c5e7a0914e1c8f20480ceac7d82471a330860e8c118",
+        "dav2_sha256": "682dfa7842e2233d4ce4cc2e600bf154644a8b41f3b3afb76261e337558eb716",
+        "dav2_inference_s": 0.30518244199999955
+      },
+      {
+        "frame": "001427",
+        "rgb_sha256": "a08d75544e44e3d8de403ec8cfed74048407740cb8faa8b097c8e96825697b38",
+        "semantic_sha256": "e6d0dd4941ec61edc39ea25bf5aef53851c98657213f310c84613426a1db519a",
+        "dav2_sha256": "b4a1b69df98238161b251dda563371056093f968407fe7b91d02e951a48cff1f",
+        "dav2_inference_s": 0.29679000500000186
+      },
+      {
+        "frame": "004638",
+        "rgb_sha256": "308b6382dcf1f5e34a4ef8b14d361caa08bacfb1d58e5466ae33c9078e499db5",
+        "semantic_sha256": "278b66c5a57f8f7d39bf375d6eb8a443e31c0c8cc1d571c1f960db1394c068e5",
+        "dav2_sha256": "fe0c245c4629dfc28ae1bb6328e1f9434ee195c25486a8275f1f403f12e908fd",
+        "dav2_inference_s": 0.3068561539999983
+      },
+      {
+        "frame": "002908",
+        "rgb_sha256": "6fa15673bc86c6b00877619b1d6c6910481d527e426fc4274692d3bffad68c8f",
+        "semantic_sha256": "0a4e97708858f4572d017789078af3e1badf317fca5d948bb9c9deec0b85a18c",
+        "dav2_sha256": "c04a6537063125b251279228cd941cc0ea9dbbfffbcd2b7b660878ed3643808e",
+        "dav2_inference_s": 0.29594313299999797
+      },
+      {
+        "frame": "002064",
+        "rgb_sha256": "884cfe787f7b5692c1c238f03c65153d2958d6ab007fbf1b0f21d3182ca798c5",
+        "semantic_sha256": "613565cd1d802e6603e9d3b92fde01279dd9768f1fceaa51d798b22cbb185f17",
+        "dav2_sha256": "0106d26d16b19a14e914ee6edade731813cc9582f57a95b3599dd4a5135c8559",
+        "dav2_inference_s": 0.30244722500000165
+      },
+      {
+        "frame": "000783",
+        "rgb_sha256": "21b38414f3afa20e31d3a9bd0e81fd65c4b3d2ad3beb200d2c16dce4868ec603",
+        "semantic_sha256": "e325e0c0cc973a5974f5580836da97a93adf64a50ac38ef16ffab8427c5af927",
+        "dav2_sha256": "371cf343f2573d6a3a4664c1a8a6f52ede128867dfcbc6d7a9b5bc6101f12436",
+        "dav2_inference_s": 0.2970077449999948
+      },
+      {
+        "frame": "003068",
+        "rgb_sha256": "4acb04adeb9370bcfe6fd5d3fe55e7cb413465f157af4d18aa31afd2931ec72d",
+        "semantic_sha256": "90e4778d625640ce4c64ecd60d5bf319ddc246bb4c075c9ec9e86402dffa5000",
+        "dav2_sha256": "e95bb481856d286ca4c27abcb463912baf41930e9cbdbf39148cd41bb6cce4f4",
+        "dav2_inference_s": 0.2947639659999979
+      },
+      {
+        "frame": "001811",
+        "rgb_sha256": "ab29e645fd36285f0ec999f33784afaa3b888696b15c6668b0372eef1823634d",
+        "semantic_sha256": "9062ae85c29a3feeb87b7d5a49061c322e2582e729e30507ac950cab270054d3",
+        "dav2_sha256": "f3d769f14b209596b3a5489898b52c57ebd522782fb04bd6b8d504f92c428032",
+        "dav2_inference_s": 0.30343357699999984
+      },
+      {
+        "frame": "002829",
+        "rgb_sha256": "d3835cdf715c8d37682c24f32a4783101cd25190e8061a94fee82ee994ad3ece",
+        "semantic_sha256": "40d501e9c79efee1ac014fe3ff753c7df6ab1a272a09f503b4a0c935cba765a6",
+        "dav2_sha256": "14d476b943c666a407f3cfa6fc0f202a5ed9e0a2332792868ee2e000ebcb7554",
+        "dav2_inference_s": 0.3088474289999965
+      },
+      {
+        "frame": "002445",
+        "rgb_sha256": "5fc66ef6f8bd741722a3a21956c95644ba2ee4d0ec3db5a7debd87a3a1d82d86",
+        "semantic_sha256": "b8c1cb0034d346ef224b12b128c3bb4707d556208afee00482fcfe80857da240",
+        "dav2_sha256": "ba337a02d35816c70d16323c030abde0be6a1568d502ee94d2ee6b8eadee4709",
+        "dav2_inference_s": 0.30250492200000423
+      },
+      {
+        "frame": "006654",
+        "rgb_sha256": "950b7cae555339c8c743fdb6cf549f6e2a6168c1f4c2a8fd3c5c90b8e59b1e2c",
+        "semantic_sha256": "e710ad94748f84d623a2c526dee1c449950fa8c9ea12946935564e8a715b5601",
+        "dav2_sha256": "dee90d848f8de1fbb18b1653fb77b3c0ab86be17109287839ca454ebf625f250",
+        "dav2_inference_s": 0.29622937299999563
+      }
+    ],
+    "bisenet": {
+      "checkpoint": "/mnt/e/litianhong/PointPainting-master/BiSeNetv2/checkpoints/BiseNetv2_150.pth",
+      "checkpoint_sha256": "81d3d71c8d3605313d6bea34a6b423374a01731adb7074490f37e417b4d9e529",
+      "exporter_sha256": "c858c307a4a17a8431359f24f0bf208f9e3fcb5e5cff747a654b93aafe541134",
+      "source_files": {
+        "BiSeNetv2/model/BiseNetv2.py": "7586096ffca88433b26c764c5ed573e8e2cae09df70ebf83ec6b3e8fb1c39772",
+        "BiSeNetv2/utils/utils.py": "fc4d19218cd00c19d51df15b25d9be655b3da09e64264e370d07dbb6261e8879",
+        "BiSeNetv2/dataset.py": "240a77fdbd79d70766609895dde64dd1af78035e9f06cf6537d8d2b361ae12e5"
+      },
+      "elapsed_batch_s": null,
+      "recovered_from_completed_export": true
+    },
+    "dav2": {
+      "kind": "dav2_small_inference",
+      "model": "cache/models/dav2_small_hf",
+      "revision": "5426e4f0f36572d16453bbda7a8389317b1bef99",
+      "device": "cuda:0",
+      "torch": "2.3.0",
+      "transformers": "4.46.3",
+      "files_sha256": {
+        "model.safetensors": "3152477ce0d8d6978d76b995120de97cb5b928701fd0f817769f59e249a16b70",
+        "config.json": "c56698d3643dde1f83ea2212759e6b31a22b8f827246a36dd007ee8a22b3ff75",
+        "preprocessor_config.json": "d41175c0d889477ca8fc67191e540faef14baf6275157b3fdecf78469e6bbf84"
+      }
+    }
+  },
+  "source_files_sha256": {
+    "run_phase6.py": "ee19e45064d2e50e856fc7acf65577cc3cac44eef31b576d9430ff3b9e83b0b2",
+    "run_phase5.py": "097e718fcb33efe50deff52332212f303da072255b4a0e4e5dedb61a363c1688",
+    "core/depth_alignment.py": "96b2089e5a19e178f89715e9b281481cc18a488d93cbac4fae593e1ab4aa7538",
+    "core/road_lidar_extract.py": "750362a67d9df8b8659ce4abd2dfda8837c615c77d3ac152b41f126f139a8de8",
+    "core/bspline_basis.py": "6e2148609099bdf75e369eeb336b0d1c9f6fdfcb4fba4008fd2f0fcd31edbeaf",
+    "core/sgsr_solver.py": "ffdb9f4cca7b2f2899976f041f8effc9b673e16d56d0f21fd4a59709f0e4e18e",
+    "core/hierarchical_surface.py": "73a2387c0d55fb69bdd36aaf78194767c52b283719b988d82f0e7950b5cc5d5f",
+    "core/sgsr.py": "9a054e94abe6a8bbbd7cdf05cc9717aa124650ba1041af775216d12231ed9840",
+    "core/support_and_weight.py": "ff68e363257fc8e708b94e1282fd62c446093777abdf3677b24588c9e77cebb7",
+    "core/road_domain.py": "e3dc08b04d8c6c0e50e32e67723f388409d7c4c8bc5a7f9b0795343478c1ec64",
+    "data/beam_downsample.py": "c4074c0e52e99dd7d957c892f7a8756b5b818adbaa5ee2403bcfb3540aba4ddb",
+    "data/kitti_calib.py": "629172b76d9fb9b8856c412691c0e2a5e8f32e8a2e35dc5a8fcd98be854e9a7f",
+    "data/kitti_dc.py": "3a92ab680e6940df6668a11e436a2cf22cc17db9556c2e171b87373325ff0954",
+    "evaluation/eval_road.py": "f10e1a775f2c083ba2e671fe3bd53247635e1577a9d78090c5c5806bbdbc663a",
+    "evaluation/synthetic_holes.py": "abffdf75bbb69f70948c779c16ce19ebcc865d0d995a448b815c35c8b49da149",
+    "frontends/run_dav2.py": "547bcd401aa2882b69780cace2d2f9c36396f346870e3b976d2c9278c8d52ba7",
+    "frontends/semantic_loader.py": "6114c33a08d3914a26168e61d62ead5e0210d150899c3dc99608591c2b1e6fab"
+  },
+  "versions": {
+    "numpy": "1.26.4",
+    "scipy": "1.13.1",
+    "pypatchworkpp": "1.4.1",
+    "Pillow": "11.3.0"
+  },
+  "conditions": [
+    "native",
+    "hole_2x4",
+    "hole_3x6"
+  ],
+  "beams": [
+    64,
+    32,
+    16
+  ],
+  "coverages": [
+    "own",
+    "common across A0-A4 and B0-B1"
+  ],
+  "reference_independence": {
+    "dc_non_input": "Excludes complete current scan projected pixels plus a one-pixel margin.",
+    "dc_guarded": "Two-pixel margin and more than 0.10 m from any current scan point in XYZ.",
+    "removed_ring_lidar": "Full-scan road points absent from the simulated sparse raw scan.",
+    "hole": "Raw observations deleted before Patchwork++ and calibration. Visual XYZ deleted before fit. Original RGB retained.",
+    "hole_core": "Evaluation only; at least 0.60 m from the four edges of the deleted rectangle."
+  }
+}

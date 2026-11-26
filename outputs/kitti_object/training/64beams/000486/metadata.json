@@ -1,0 +1,86 @@
+{
+  "frame": "000486",
+  "split": "training",
+  "image_size_wh": [
+    1242,
+    375
+  ],
+  "image_file": "E:\\litianhong\\kitti\\training\\image_2\\000486.png",
+  "semantic_file": "E:\\litianhong\\VirConv\\output\\v14\\g0d_semantic_audit\\frames\\000486\\image_semantics.npz",
+  "semantic_npz_key": "classes",
+  "semantic": {
+    "size_wh": [
+      1242,
+      375
+    ],
+    "dtype": "uint8",
+    "source_ids": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      7,
+      8,
+      9,
+      10,
+      11,
+      13,
+      18
+    ],
+    "format": "trainId",
+    "crop_xywh": [
+      0,
+      0,
+      1242,
+      375
+    ],
+    "padding_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "output_train_ids": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      7,
+      8,
+      9,
+      10,
+      11,
+      13,
+      18
+    ]
+  },
+  "road_pixels": 96589,
+  "sidewalk_pixels": 13660,
+  "lidar_file": "E:\\litianhong\\kitti\\training\\velodyne\\000486.bin",
+  "calibration_file": "E:\\litianhong\\kitti\\training\\calib\\000486.txt",
+  "ground_method": "Patchwork++",
+  "ground_source": "E:\\litianhong\\kitti\\training\\ground_patchworkpp\\000486.npz",
+  "roi_lidar_xy_m": [
+    [
+      0,
+      70.4
+    ],
+    [
+      -20,
+      20
+    ]
+  ],
+  "counts": {
+    "raw_points": 108786,
+    "finite_points": 108786,
+    "visible_points_in_roi": 17661,
+    "semantic_road_points": 7038,
+    "patchwork_ground_points_raw": 52119,
+    "road_points_after_geometry": 6943,
+    "road_points_after_boundary": 6716,
+    "road_points_final": 6649,
+    "semantic_boundary_margin_px": 2
+  }
+}

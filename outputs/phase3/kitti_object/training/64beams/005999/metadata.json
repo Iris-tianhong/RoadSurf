@@ -1,0 +1,53 @@
+{
+  "frame": "005999",
+  "split": "training",
+  "phase2_input": "E:\\litianhong\\RoadSurf\\outputs\\phase2\\kitti_object\\training\\64beams\\005999",
+  "coordinate_system": "KITTI Velodyne (m)",
+  "scipy_version": "1.10.1",
+  "solve_dtype": "float64",
+  "grid_spacing_m": 0.2,
+  "knot_spacing_target_m": 4.0,
+  "observed_radius_m": 1.25,
+  "max_anchor_residual_m": 0.3,
+  "visual_weight": 0.25,
+  "smoothness": 2.0,
+  "lidar_observations": 7099,
+  "visual_observations": 102936,
+  "ransac_inliers": 7099,
+  "methods": {
+    "ransac": {
+      "points": 5736,
+      "lidar_fit_mae_m": 0.03093198128598296,
+      "local_height_rejected": 0,
+      "max_neighbor_height_step_m": 0.0010332785238207354,
+      "z_range_m": [
+        -1.6281904620918006,
+        -1.3952938529554297
+      ]
+    },
+    "lidar_bspline": {
+      "points": 5659,
+      "lidar_fit_mae_m": 0.009088297564709432,
+      "local_height_rejected": 0,
+      "max_neighbor_height_step_m": 0.014955828245311498,
+      "z_range_m": [
+        -1.7288913471404945,
+        -1.312624502290511
+      ],
+      "visual_fit_samples": 0,
+      "lsmr_last_iterations": 191
+    },
+    "multimodal_bspline": {
+      "points": 5697,
+      "lidar_fit_mae_m": 0.010969149027330625,
+      "local_height_rejected": 0,
+      "max_neighbor_height_step_m": 0.011703137413623388,
+      "z_range_m": [
+        -1.7276670105985072,
+        -1.338901837828427
+      ],
+      "visual_fit_samples": 1512,
+      "lsmr_last_iterations": 205
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "frame": "007430",
+  "split": "training",
+  "image_size_wh": [
+    1242,
+    375
+  ],
+  "image_file": "/mnt/e/litianhong/kitti/training/image_2/007430.png",
+  "semantic_file": "/mnt/e/litianhong/VirConv/output/v14/g0d_semantic_audit/frames/007430/image_semantics.npz",
+  "semantic_npz_key": "classes",
+  "semantic": {
+    "size_wh": [
+      1242,
+      375
+    ],
+    "dtype": "uint8",
+    "source_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      8,
+      9,
+      10,
+      13,
+      18
+    ],
+    "format": "trainId",
+    "crop_xywh": [
+      0,
+      0,
+      1242,
+      375
+    ],
+    "padding_ltrb": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "output_train_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      8,
+      9,
+      10,
+      13,
+      18
+    ]
+  },
+  "road_pixels": 59542,
+  "sidewalk_pixels": 9721,
+  "lidar_file": "/mnt/e/litianhong/kitti/training/velodyne/007430.bin",
+  "calibration_file": "/mnt/e/litianhong/kitti/training/calib/007430.txt",
+  "ground_method": "Patchwork++",
+  "ground_source": "/mnt/e/litianhong/kitti/training/ground_patchworkpp/007430.npz",
+  "roi_lidar_xy_m": [
+    [
+      0,
+      70.4
+    ],
+    [
+      -20,
+      20
+    ]
+  ],
+  "counts": {
+    "raw_points": 114333,
+    "finite_points": 114333,
+    "visible_points_in_roi": 16641,
+    "semantic_road_points": 4690,
+    "patchwork_ground_points_raw": 35106,
+    "road_points_after_geometry": 4662,
+    "road_points_after_boundary": 4484,
+    "road_points_final": 4479,
+    "semantic_boundary_margin_px": 2,
+    "visual_road_points": 57044
+  },
+  "relative_depth": {
+    "kind": "dav2_small_inference",
+    "model": "cache/models/dav2_small_hf",
+    "revision": "5426e4f0f36572d16453bbda7a8389317b1bef99",
+    "device": "cuda:0",
+    "torch": "2.3.0",
+    "transformers": "4.46.3"
+  },
+  "depth_alignment": {
+    "scale": 0.029170275582772034,
+    "shift": -0.002442036267627588,
+    "anchors": 4461,
+    "occupied_distance_bins": 10,
+    "distance_bin_m": 5.0,
+    "condition_number": 5.5081446920106245,
+    "anchor_depth_range_m": [
+      5.873659949544214,
+      51.562667766042615
+    ],
+    "anchor_inverse_depth_mae_per_m": 0.0021989261021796106,
+    "anchor_depth_mae_m": 0.24936387967790782
+  },
+  "mode": "lidar_and_visual"
+}

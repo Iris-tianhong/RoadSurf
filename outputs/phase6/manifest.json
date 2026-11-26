@@ -1,0 +1,354 @@
+{
+  "version": "phase6-holdout-v1",
+  "dc_partition": "val",
+  "selection": "All complete Object/Raw/DC matches from permitted validation drives; no metric or reference depth used.",
+  "mapping_sha256": {
+    "object_mapping": "ca9a80524adbfbebc3179987e70a8dab1488a88ba368e77715d561c901196a54",
+    "object_permutation": "0976b8b4f876f538010a9690249b60c0766d852e23acd5e07b4c3e0bd70f305f",
+    "scene_flow_mapping": "6cd7e3a60042a3cfa5e05a0b058e6872250ad28c88a704d03ac13a0764585ceb"
+  },
+  "phase4_manifest_sha256": "dd0ee8849151b6b763de7befa0c17e4c1b7d8195b088ceea6ad884365bee1ce4",
+  "excluded_project": {
+    "development_ids": [
+      "000005",
+      "000486",
+      "000702",
+      "001466",
+      "001590",
+      "002586",
+      "002702",
+      "003066",
+      "005458",
+      "005999",
+      "007430"
+    ],
+    "development_drives": [
+      "2011_09_26_drive_0009_sync",
+      "2011_09_26_drive_0014_sync",
+      "2011_09_26_drive_0022_sync",
+      "2011_09_26_drive_0039_sync",
+      "2011_09_26_drive_0064_sync",
+      "2011_09_26_drive_0070_sync",
+      "2011_09_26_drive_0093_sync",
+      "2011_09_26_drive_0095_sync",
+      "2011_09_26_drive_0101_sync",
+      "2011_09_28_drive_0002_sync"
+    ],
+    "phase4_and_phase5_ids": [
+      "000006",
+      "000575",
+      "001125",
+      "002289",
+      "003669",
+      "004347",
+      "004909",
+      "005057",
+      "005696",
+      "006006",
+      "006242",
+      "007172"
+    ],
+    "phase4_and_phase5_drives": [
+      "2011_09_26_drive_0020_sync",
+      "2011_09_26_drive_0023_sync",
+      "2011_09_28_drive_0037_sync",
+      "2011_09_29_drive_0026_sync"
+    ]
+  },
+  "bisenet_mapping": {
+    "bisenet_train": {
+      "mapped": 141,
+      "unmapped": 39
+    },
+    "bisenet_validation": {
+      "mapped": 1,
+      "unmapped": 19
+    },
+    "bisenet_all": {
+      "mapped": 142,
+      "unmapped": 58
+    }
+  },
+  "excluded_known_bisenet_drives": [
+    "2011_09_26_drive_0005_sync",
+    "2011_09_26_drive_0009_sync",
+    "2011_09_26_drive_0011_sync",
+    "2011_09_26_drive_0013_sync",
+    "2011_09_26_drive_0014_sync",
+    "2011_09_26_drive_0015_sync",
+    "2011_09_26_drive_0017_sync",
+    "2011_09_26_drive_0018_sync",
+    "2011_09_26_drive_0019_sync",
+    "2011_09_26_drive_0022_sync",
+    "2011_09_26_drive_0027_sync",
+    "2011_09_26_drive_0028_sync",
+    "2011_09_26_drive_0029_sync",
+    "2011_09_26_drive_0032_sync",
+    "2011_09_26_drive_0036_sync",
+    "2011_09_26_drive_0046_sync",
+    "2011_09_26_drive_0051_sync",
+    "2011_09_26_drive_0056_sync",
+    "2011_09_26_drive_0057_sync",
+    "2011_09_26_drive_0059_sync",
+    "2011_09_26_drive_0070_sync",
+    "2011_09_26_drive_0084_sync",
+    "2011_09_26_drive_0096_sync",
+    "2011_09_26_drive_0101_sync",
+    "2011_09_26_drive_0104_sync",
+    "2011_09_28_drive_0002_sync",
+    "2011_09_29_drive_0004_sync",
+    "2011_09_29_drive_0071_sync",
+    "2011_10_03_drive_0047_sync"
+  ],
+  "dc_train_val_drive_overlap": [],
+  "unused_dc_val_drives_without_object_matches": [
+    "2011_09_30_drive_0016_sync"
+  ],
+  "vkitti_audit_sha256": "8f446ca5f31e99dc66cf81aec12f5fdb7c33180153478d7a0490641232ee0a9a",
+  "vkitti": {
+    "tracking_oxts_sha256": "0b93e47a01d9479b7aeffcad50c0a08566f723119b6dfb7a11da3466acaf02de",
+    "tracking_seeds": [
+      1,
+      2,
+      6,
+      18,
+      20
+    ],
+    "checked_raw_drives": {
+      "2011_09_26_drive_0002_sync": {
+        "url": "https://s3.eu-central-1.amazonaws.com/avg-kitti/raw_data/2011_09_26_drive_0002/2011_09_26_drive_0002_sync.zip",
+        "raw_pose_count": 77,
+        "raw_oxts_sha256": "cad76687c9247785b64372d7c0549982bfb9c2eacf9b226494859d8652833cf1",
+        "tracking_seed_matching_poses": {}
+      },
+      "2011_09_26_drive_0020_sync": {
+        "url": "https://s3.eu-central-1.amazonaws.com/avg-kitti/raw_data/2011_09_26_drive_0020/2011_09_26_drive_0020_sync.zip",
+        "raw_pose_count": 86,
+        "raw_oxts_sha256": "31fe92b357f4a6b497ea9cc20680c4245fe3664ec7621bd0b96d9898394e078c",
+        "tracking_seed_matching_poses": {}
+      },
+      "2011_09_26_drive_0023_sync": {
+        "url": "https://s3.eu-central-1.amazonaws.com/avg-kitti/raw_data/2011_09_26_drive_0023/2011_09_26_drive_0023_sync.zip",
+        "raw_pose_count": 474,
+        "raw_oxts_sha256": "e97ff4bab8c325b54ae79fa722470c6efe12b40a663175154ecef38e375eb897",
+        "tracking_seed_matching_poses": {}
+      },
+      "2011_09_26_drive_0079_sync": {
+        "url": "https://s3.eu-central-1.amazonaws.com/avg-kitti/raw_data/2011_09_26_drive_0079/2011_09_26_drive_0079_sync.zip",
+        "raw_pose_count": 100,
+        "raw_oxts_sha256": "28feb1e6aaa847b916f7c548bc4bc631f9c73bba88f5d5b2f1f6b6420885e6ba",
+        "tracking_seed_matching_poses": {}
+      },
+      "2011_09_26_drive_0113_sync": {
+        "url": "https://s3.eu-central-1.amazonaws.com/avg-kitti/raw_data/2011_09_26_drive_0113/2011_09_26_drive_0113_sync.zip",
+        "raw_pose_count": 87,
+        "raw_oxts_sha256": "d9b7bc97047947cf29bbebd1e122cf340ce34aafe4af0abd1b716048c0f549b7",
+        "tracking_seed_matching_poses": {}
+      },
+      "2011_09_28_drive_0037_sync": {
+        "url": "https://s3.eu-central-1.amazonaws.com/avg-kitti/raw_data/2011_09_28_drive_0037/2011_09_28_drive_0037_sync.zip",
+        "raw_pose_count": 89,
+        "raw_oxts_sha256": "aec05fbaab3ecf96d6493ec2814ea5d8b1a736f7fb29d18a266d6e4df6f6ac00",
+        "tracking_seed_matching_poses": {}
+      },
+      "2011_09_29_drive_0026_sync": {
+        "url": "https://s3.eu-central-1.amazonaws.com/avg-kitti/raw_data/2011_09_29_drive_0026/2011_09_29_drive_0026_sync.zip",
+        "raw_pose_count": 158,
+        "raw_oxts_sha256": "ae8ea576496a221f143a88ae7191716a2877a62c76e2a8371b6a316e8596273b",
+        "tracking_seed_matching_poses": {}
+      }
+    }
+  },
+  "excluded_duplicate_rgb_or_velodyne_ids": [],
+  "detection_overlap": {
+    "train": {
+      "frames": 3712,
+      "ids_sha256": "b6417a1d9b18c8fdb085128e633d28ff321b7674a6d1b3841b8f43d865b281cb",
+      "mapped_frames": 3712,
+      "bisenet_train": {
+        "same_frame": 61,
+        "same_drive": 2322
+      },
+      "bisenet_validation": {
+        "same_frame": 0,
+        "same_drive": 0
+      },
+      "bisenet_all": {
+        "same_frame": 61,
+        "same_drive": 2322
+      }
+    },
+    "val": {
+      "frames": 3769,
+      "ids_sha256": "657ac4bcc1e156e5b106a4ca18e1f88e012787ea1d2b5d0adeea97fee903fa86",
+      "mapped_frames": 3769,
+      "bisenet_train": {
+        "same_frame": 31,
+        "same_drive": 2032
+      },
+      "bisenet_validation": {
+        "same_frame": 1,
+        "same_drive": 296
+      },
+      "bisenet_all": {
+        "same_frame": 32,
+        "same_drive": 2328
+      }
+    },
+    "test": {
+      "frames": 7518,
+      "ids_sha256": "a48fd4a14ec1dcff3b5f22ffa132efb9cb034d1370f370afcb4045d241786c6d",
+      "raw_mapping_available": false
+    }
+  },
+  "holdout_counts": {
+    "2011_09_26_drive_0002_sync": 6,
+    "2011_09_26_drive_0079_sync": 3,
+    "2011_09_26_drive_0113_sync": 4
+  },
+  "frames": [
+    {
+      "frame": "004768",
+      "drive": "2011_09_26_drive_0002_sync",
+      "raw_frame": "0000000066",
+      "depth_png": "data_depth_annotated/val/2011_09_26_drive_0002_sync/proj_depth/groundtruth/image_02/0000000066.png",
+      "input_sha256": {
+        "rgb": "b2c3778768c4d362a40c41e5eff9193e719eb927d751f7cb61d9624a93a50805",
+        "velodyne": "8128a5ab55b18b2380278284cd54b2d8d58585e1aa8b6710fe49b85061c88b25",
+        "calibration": "5813c05a89e33e67244891c62e153e0a572692d42365b8665e38cc242c7d4918"
+      }
+    },
+    {
+      "frame": "000224",
+      "drive": "2011_09_26_drive_0002_sync",
+      "raw_frame": "0000000067",
+      "depth_png": "data_depth_annotated/val/2011_09_26_drive_0002_sync/proj_depth/groundtruth/image_02/0000000067.png",
+      "input_sha256": {
+        "rgb": "596d37f14d6617c3212e4f521a472a4043a6111ddc4169e2552c2b7cdbbef60c",
+        "velodyne": "54e7a5c3f18eb7b309d3051e3e615ce610d7fba7db8542a6d13031e1526f6f54",
+        "calibration": "5813c05a89e33e67244891c62e153e0a572692d42365b8665e38cc242c7d4918"
+      }
+    },
+    {
+      "frame": "003748",
+      "drive": "2011_09_26_drive_0002_sync",
+      "raw_frame": "0000000068",
+      "depth_png": "data_depth_annotated/val/2011_09_26_drive_0002_sync/proj_depth/groundtruth/image_02/0000000068.png",
+      "input_sha256": {
+        "rgb": "9e74e6b94b8f1d921d9c8584cdfa06d67a97e6c02998def9101415d3ec1e01df",
+        "velodyne": "22ad27c6ec470a85b64ef0c7f6a569bdd4e50e87261cb565c3df4f4d9f9abb73",
+        "calibration": "5813c05a89e33e67244891c62e153e0a572692d42365b8665e38cc242c7d4918"
+      }
+    },
+    {
+      "frame": "001427",
+      "drive": "2011_09_26_drive_0002_sync",
+      "raw_frame": "0000000069",
+      "depth_png": "data_depth_annotated/val/2011_09_26_drive_0002_sync/proj_depth/groundtruth/image_02/0000000069.png",
+      "input_sha256": {
+        "rgb": "a08d75544e44e3d8de403ec8cfed74048407740cb8faa8b097c8e96825697b38",
+        "velodyne": "5228197ad280cb14d1e88a814e0962f2fa29dabd3d5df40465621a26ab6cfe94",
+        "calibration": "5813c05a89e33e67244891c62e153e0a572692d42365b8665e38cc242c7d4918"
+      }
+    },
+    {
+      "frame": "004638",
+      "drive": "2011_09_26_drive_0002_sync",
+      "raw_frame": "0000000070",
+      "depth_png": "data_depth_annotated/val/2011_09_26_drive_0002_sync/proj_depth/groundtruth/image_02/0000000070.png",
+      "input_sha256": {
+        "rgb": "308b6382dcf1f5e34a4ef8b14d361caa08bacfb1d58e5466ae33c9078e499db5",
+        "velodyne": "1a3cb9a3a25ab608a56d1fc6886bb0f9f0e026395af9fe89ad939dc5c6ccb876",
+        "calibration": "5813c05a89e33e67244891c62e153e0a572692d42365b8665e38cc242c7d4918"
+      }
+    },
+    {
+      "frame": "002908",
+      "drive": "2011_09_26_drive_0002_sync",
+      "raw_frame": "0000000071",
+      "depth_png": "data_depth_annotated/val/2011_09_26_drive_0002_sync/proj_depth/groundtruth/image_02/0000000071.png",
+      "input_sha256": {
+        "rgb": "6fa15673bc86c6b00877619b1d6c6910481d527e426fc4274692d3bffad68c8f",
+        "velodyne": "b6a8a65ef4f85e69432c045b96e3d5d62bada5f30c945a56582ea19b80b9f00f",
+        "calibration": "5813c05a89e33e67244891c62e153e0a572692d42365b8665e38cc242c7d4918"
+      }
+    },
+    {
+      "frame": "002064",
+      "drive": "2011_09_26_drive_0079_sync",
+      "raw_frame": "0000000006",
+      "depth_png": "data_depth_annotated/val/2011_09_26_drive_0079_sync/proj_depth/groundtruth/image_02/0000000006.png",
+      "input_sha256": {
+        "rgb": "884cfe787f7b5692c1c238f03c65153d2958d6ab007fbf1b0f21d3182ca798c5",
+        "velodyne": "0790266b9dd1c135a3806701c01fd3ec1d412cc6983da896f5aa5c45943624fe",
+        "calibration": "5813c05a89e33e67244891c62e153e0a572692d42365b8665e38cc242c7d4918"
+      }
+    },
+    {
+      "frame": "000783",
+      "drive": "2011_09_26_drive_0079_sync",
+      "raw_frame": "0000000008",
+      "depth_png": "data_depth_annotated/val/2011_09_26_drive_0079_sync/proj_depth/groundtruth/image_02/0000000008.png",
+      "input_sha256": {
+        "rgb": "21b38414f3afa20e31d3a9bd0e81fd65c4b3d2ad3beb200d2c16dce4868ec603",
+        "velodyne": "3af406eb44dbf50efcb8ff19b79bc26fa75fdddfc471f29e78743b3d5e72027c",
+        "calibration": "5813c05a89e33e67244891c62e153e0a572692d42365b8665e38cc242c7d4918"
+      }
+    },
+    {
+      "frame": "003068",
+      "drive": "2011_09_26_drive_0079_sync",
+      "raw_frame": "0000000010",
+      "depth_png": "data_depth_annotated/val/2011_09_26_drive_0079_sync/proj_depth/groundtruth/image_02/0000000010.png",
+      "input_sha256": {
+        "rgb": "4acb04adeb9370bcfe6fd5d3fe55e7cb413465f157af4d18aa31afd2931ec72d",
+        "velodyne": "f23e36997a19439df7fa8b7f496679269c3494b92772971941a2ba17305a1f0b",
+        "calibration": "5813c05a89e33e67244891c62e153e0a572692d42365b8665e38cc242c7d4918"
+      }
+    },
+    {
+      "frame": "001811",
+      "drive": "2011_09_26_drive_0113_sync",
+      "raw_frame": "0000000006",
+      "depth_png": "data_depth_annotated/val/2011_09_26_drive_0113_sync/proj_depth/groundtruth/image_02/0000000006.png",
+      "input_sha256": {
+        "rgb": "ab29e645fd36285f0ec999f33784afaa3b888696b15c6668b0372eef1823634d",
+        "velodyne": "a1dcaf0fcfa9e5a34c1f9ee3fb2602f6d9275fbd338ece03ab23b1e1ec96b01a",
+        "calibration": "5813c05a89e33e67244891c62e153e0a572692d42365b8665e38cc242c7d4918"
+      }
+    },
+    {
+      "frame": "002829",
+      "drive": "2011_09_26_drive_0113_sync",
+      "raw_frame": "0000000009",
+      "depth_png": "data_depth_annotated/val/2011_09_26_drive_0113_sync/proj_depth/groundtruth/image_02/0000000009.png",
+      "input_sha256": {
+        "rgb": "d3835cdf715c8d37682c24f32a4783101cd25190e8061a94fee82ee994ad3ece",
+        "velodyne": "b63536cc0c552383705efcc55fcbc2db378234c6e513768c6c988d89d4648c59",
+        "calibration": "5813c05a89e33e67244891c62e153e0a572692d42365b8665e38cc242c7d4918"
+      }
+    },
+    {
+      "frame": "002445",
+      "drive": "2011_09_26_drive_0113_sync",
+      "raw_frame": "0000000062",
+      "depth_png": "data_depth_annotated/val/2011_09_26_drive_0113_sync/proj_depth/groundtruth/image_02/0000000062.png",
+      "input_sha256": {
+        "rgb": "5fc66ef6f8bd741722a3a21956c95644ba2ee4d0ec3db5a7debd87a3a1d82d86",
+        "velodyne": "69c1e966db62516481d28d54c8fc60d48ed9600ac81a66931ec100e11466d0dc",
+        "calibration": "5813c05a89e33e67244891c62e153e0a572692d42365b8665e38cc242c7d4918"
+      }
+    },
+    {
+      "frame": "006654",
+      "drive": "2011_09_26_drive_0113_sync",
+      "raw_frame": "0000000065",
+      "depth_png": "data_depth_annotated/val/2011_09_26_drive_0113_sync/proj_depth/groundtruth/image_02/0000000065.png",
+      "input_sha256": {
+        "rgb": "950b7cae555339c8c743fdb6cf549f6e2a6168c1f4c2a8fd3c5c90b8e59b1e2c",
+        "velodyne": "2c7abe6c8f64ac13f9d97c36878da5dffe2dd77d2c94cd5b7abc28eb4e35a53f",
+        "calibration": "5813c05a89e33e67244891c62e153e0a572692d42365b8665e38cc242c7d4918"
+      }
+    }
+  ]
+}

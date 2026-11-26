@@ -1,0 +1,5 @@
+numpy>=1.21
+scipy>=1.10
+Pillow>=9.1
+PyYAML>=6
+pytest>=7

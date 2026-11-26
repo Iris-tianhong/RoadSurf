@@ -1,0 +1,3 @@
+# 相对路径以此配置文件所在目录为基准。
+kitti_root: ../../kitti
+split: training

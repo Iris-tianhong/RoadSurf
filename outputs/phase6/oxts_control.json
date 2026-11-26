@@ -1,0 +1,12 @@
+{
+  "control_against_all_tracking_training_sequences": {
+    "2011_10_03_drive_0047_sync": {
+      "url": "https://s3.eu-central-1.amazonaws.com/avg-kitti/raw_data/2011_10_03_drive_0047/2011_10_03_drive_0047_sync.zip",
+      "raw_pose_count": 837,
+      "raw_oxts_sha256": "f650547aa413789af51606969177f3f114865dfdc57536ee49de2822f4f6006f",
+      "tracking_seed_matching_poses": {
+        "20": 837
+      }
+    }
+  }
+}

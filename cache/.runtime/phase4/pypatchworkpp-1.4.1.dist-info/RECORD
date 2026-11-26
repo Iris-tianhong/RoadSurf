@@ -1,0 +1,17 @@
+include/patchwork/patchwork.h,sha256=9ZPEFL2tZVGwVSPirQIPhEJbJ4WG4hYwV4FzlYHtHEg,3820
+include/patchwork/patchworkpp.h,sha256=OAOlzUwQZMcfoJ8ziDaeBMqRLRjNwrj1Knlqa7_DYvg,8958
+include/patchwork/plane_fit.h,sha256=D4mjUXiqJHu92As2uYPo_UyoWzOLn42IKvmSNbM_x8I,949
+include/patchwork/types.h,sha256=QmX0mEn1mNcxkI1M5a0Fp4Ni_dqFGM1_cSBGFzvzGBY,1333
+lib64/cmake/patchworkpp/patchworkppConfig-release.cmake,sha256=gifn7I5UA8wtJDSB6_DVeGtVOeLpnaVjqVkh0UTuo-g,2091
+lib64/cmake/patchworkpp/patchworkppConfig.cmake,sha256=joOX1oruzTc5EFsqXlmfRCBLFYhvZwH9wvNn4CRNtI8,5743
+lib64/cmake/patchworkpp/patchworkppTargets-release.cmake,sha256=gifn7I5UA8wtJDSB6_DVeGtVOeLpnaVjqVkh0UTuo-g,2091
+lib64/cmake/patchworkpp/patchworkppTargets.cmake,sha256=fJQHqR6esmu_8BPG5YQ4midcLqN52kfJpSOCRYJHsXM,5744
+lib64/libground_seg_classic.a,sha256=uQj950dkOxh2l2SiB2YwkwHpfQ9VoLJA7DSdGEXqfik,44936
+lib64/libground_seg_common.a,sha256=RbFzIir71ZmXMFIPoE94JWteUhlI2Dy0iNLTll_570g,50714
+lib64/libground_seg_cores.a,sha256=tU3bw1LGtkgL3zSPXnGlJdvVnSk36qwQy25TzRmdqOY,53644
+pypatchworkpp-1.4.1.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4
+pypatchworkpp-1.4.1.dist-info/METADATA,sha256=4E0lwny_YVZuVPANgkcQjSrIWlIwUcSclk-6qyZzVTo,267
+pypatchworkpp-1.4.1.dist-info/RECORD,,
+pypatchworkpp-1.4.1.dist-info/REQUESTED,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pypatchworkpp-1.4.1.dist-info/WHEEL,sha256=7P3ycbNyfehZtwuxosw3VCIKEdk6hcA91zA3gn7th9c,152
+pypatchworkpp.cpython-39-x86_64-linux-gnu.so,sha256=cXu0SHo813Xi3GplcEhfEENXP_B1AyXAAlmdchShPtU,418896

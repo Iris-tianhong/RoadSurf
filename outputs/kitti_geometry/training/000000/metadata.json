@@ -1,0 +1,17 @@
+{
+  "kitti_root": "E:\\litianhong\\kitti",
+  "split": "training",
+  "frame": "000000",
+  "image_size_wh": [
+    1224,
+    370
+  ],
+  "raw_points": 115384,
+  "projected_points_in_image": 20285,
+  "valid_depth_pixels": 20227,
+  "depth_range_m": [
+    4.219317571710777,
+    72.72995055815286
+  ],
+  "round_trip_max_error_m": 3.364928296378212e-14
+}

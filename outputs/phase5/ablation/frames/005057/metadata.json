@@ -1,0 +1,27 @@
+{
+  "frame": "005057",
+  "beams": 64,
+  "gap_kind": "observed_sensor_occlusion",
+  "version": "phase5-v1",
+  "shape": [
+    352,
+    200
+  ],
+  "visible_points": 6482,
+  "hidden_points": 3,
+  "complete_points": 6485,
+  "observed_cells_by_method": {
+    "A0": 6493,
+    "A1": 6478,
+    "A2": 6483,
+    "A3": 6482,
+    "A4": 6482
+  },
+  "fit_dtype": "float64",
+  "visual_points": 102449,
+  "fine_coefficient_l2_by_method": {
+    "A1": 0.8050240946454053,
+    "A2": 0.2977948952464586,
+    "A3": 0.27062438752532164
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "frame": "000575",
+  "beams": 16,
+  "gap_kind": "synthetic_geometry_holdout",
+  "rectangle_center_xy": [
+    14.9,
+    0.5
+  ],
+  "rectangle_size_xy": [
+    4,
+    2
+  ],
+  "version": "phase5-v1",
+  "shape": [
+    352,
+    200
+  ],
+  "visible_points": 1939,
+  "hidden_points": 33,
+  "complete_points": 1972,
+  "observed_cells_by_method": {
+    "A0": 1936,
+    "A1": 1940,
+    "A2": 1942,
+    "A3": 1939,
+    "A4": 1939
+  },
+  "fit_dtype": "float64",
+  "visual_points": 61769,
+  "fine_coefficient_l2_by_method": {
+    "A1": 2.4427620919328445,
+    "A2": 0.9222170319493347,
+    "A3": 0.827757756740002
+  }
+}

@@ -1,0 +1,2625 @@
+{
+  "frames": [
+    {
+      "frame": "004768",
+      "drive": "2011_09_26_drive_0002_sync",
+      "dc_full_scan_overlap_px": 9491,
+      "dc_full_scan_median_depth_delta_m": 0.05448370236440603,
+      "dc_png_sha256": "cd0da6cf77c656245ebc1e7dfcd3a4b55109d1b5fc8f4cff686406ebef28ad22",
+      "dc_non_input_points": 18637,
+      "dc_guarded_points": 4011,
+      "eligible_holes": [
+        "hole_2x4",
+        "hole_3x6"
+      ],
+      "cases": [
+        {
+          "beams": 64,
+          "condition": "native",
+          "raw_retained": 122618,
+          "raw_removed": 0,
+          "visual_removed": 0,
+          "lidar": 6674,
+          "visual": 90602,
+          "alignment_failure": null,
+          "fit_and_domain_s": 1.2491273119999988,
+          "visible_grid": 9984,
+          "hidden_grid": 0,
+          "low_support_control_rms_m": {
+            "A1": 0.03762106866724319,
+            "A2": 0.027043735538693856,
+            "A3": 0.026336115129177887
+          },
+          "vision_weight_range": [
+            40.89810923392234,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.1713193322230332
+        },
+        {
+          "beams": 64,
+          "condition": "hole_2x4",
+          "xy": [
+            14.9,
+            -0.09999999999999787
+          ],
+          "raw_retained": 122338,
+          "raw_removed": 280,
+          "visual_removed": 2298,
+          "lidar": 6394,
+          "visual": 88304,
+          "alignment_failure": null,
+          "fit_and_domain_s": 1.1976904679999976,
+          "visible_grid": 9914,
+          "hidden_grid": 387,
+          "low_support_control_rms_m": {
+            "A1": 0.03764460858378389,
+            "A2": 0.027078086991096744,
+            "A3": 0.02636654894961793
+          },
+          "vision_weight_range": [
+            40.2520418798621,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.17427220616290306
+        },
+        {
+          "beams": 64,
+          "condition": "hole_3x6",
+          "xy": [
+            14.9,
+            0.3000000000000007
+          ],
+          "raw_retained": 122000,
+          "raw_removed": 618,
+          "visual_removed": 5471,
+          "lidar": 6059,
+          "visual": 85131,
+          "alignment_failure": null,
+          "fit_and_domain_s": 1.1388215939999995,
+          "visible_grid": 9704,
+          "hidden_grid": 590,
+          "low_support_control_rms_m": {
+            "A1": 0.037497865394174386,
+            "A2": 0.027076534221507947,
+            "A3": 0.026357425171308645
+          },
+          "vision_weight_range": [
+            39.63640896852071,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.178911541413676
+        },
+        {
+          "beams": 32,
+          "condition": "native",
+          "raw_retained": 61387,
+          "raw_removed": 0,
+          "visual_removed": 0,
+          "lidar": 3342,
+          "visual": 90585,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.9280652799999984,
+          "visible_grid": 7307,
+          "hidden_grid": 0,
+          "low_support_control_rms_m": {
+            "A1": 0.026774762403495023,
+            "A2": 0.016843162163716875,
+            "A3": 0.016171046163368157
+          },
+          "vision_weight_range": [
+            28.050797239952868,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.17447789201976505
+        },
+        {
+          "beams": 32,
+          "condition": "hole_2x4",
+          "xy": [
+            14.9,
+            -0.09999999999999787
+          ],
+          "raw_retained": 61247,
+          "raw_removed": 140,
+          "visual_removed": 2309,
+          "lidar": 3202,
+          "visual": 88275,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.9707830529999981,
+          "visible_grid": 7226,
+          "hidden_grid": 191,
+          "low_support_control_rms_m": {
+            "A1": 0.026913850636748803,
+            "A2": 0.01695011092949789,
+            "A3": 0.016223971869169015
+          },
+          "vision_weight_range": [
+            27.694193281897757,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.17775499825802962
+        },
+        {
+          "beams": 32,
+          "condition": "hole_3x6",
+          "xy": [
+            14.9,
+            0.3000000000000007
+          ],
+          "raw_retained": 61106,
+          "raw_removed": 281,
+          "visual_removed": 5487,
+          "lidar": 3061,
+          "visual": 85099,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.9173807200000041,
+          "visible_grid": 7017,
+          "hidden_grid": 401,
+          "low_support_control_rms_m": {
+            "A1": 0.026879876422332326,
+            "A2": 0.016850864877524366,
+            "A3": 0.01620768166435407
+          },
+          "vision_weight_range": [
+            27.163528751430967,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.181822721645379
+        },
+        {
+          "beams": 16,
+          "condition": "native",
+          "raw_retained": 30859,
+          "raw_removed": 0,
+          "visual_removed": 0,
+          "lidar": 1604,
+          "visual": 90553,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.7980473369999999,
+          "visible_grid": 4679,
+          "hidden_grid": 0,
+          "low_support_control_rms_m": {
+            "A1": 0.02524268461935263,
+            "A2": 0.013529020318752541,
+            "A3": 0.014291904905746989
+          },
+          "vision_weight_range": [
+            72.58576356535434,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.17316913825577418
+        },
+        {
+          "beams": 16,
+          "condition": "hole_2x4",
+          "xy": [
+            14.9,
+            -0.09999999999999787
+          ],
+          "raw_retained": 30786,
+          "raw_removed": 73,
+          "visual_removed": 2301,
+          "lidar": 1564,
+          "visual": 88251,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.7636370889999995,
+          "visible_grid": 4534,
+          "hidden_grid": 99,
+          "low_support_control_rms_m": {
+            "A1": 0.025293153412676142,
+            "A2": 0.01354325468600126,
+            "A3": 0.014351820205748902
+          },
+          "vision_weight_range": [
+            72.38302317055738,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.17663228711511003
+        },
+        {
+          "beams": 16,
+          "condition": "hole_3x6",
+          "xy": [
+            14.9,
+            0.3000000000000007
+          ],
+          "raw_retained": 30725,
+          "raw_removed": 134,
+          "visual_removed": 5460,
+          "lidar": 1523,
+          "visual": 85095,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.7460589330000005,
+          "visible_grid": 4366,
+          "hidden_grid": 84,
+          "low_support_control_rms_m": {
+            "A1": 0.025095655715022234,
+            "A2": 0.013577161054889809,
+            "A3": 0.014371802258548547
+          },
+          "vision_weight_range": [
+            72.23011435704852,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.1813630462534451
+        }
+      ]
+    },
+    {
+      "frame": "000224",
+      "drive": "2011_09_26_drive_0002_sync",
+      "dc_full_scan_overlap_px": 9521,
+      "dc_full_scan_median_depth_delta_m": 0.0518693518915434,
+      "dc_png_sha256": "b676c4e2e9f236082c654b0f3022683b0a7638502555a0fae8d4922246e7de5e",
+      "dc_non_input_points": 18412,
+      "dc_guarded_points": 3676,
+      "eligible_holes": [
+        "hole_2x4",
+        "hole_3x6"
+      ],
+      "cases": [
+        {
+          "beams": 64,
+          "condition": "native",
+          "raw_retained": 122417,
+          "raw_removed": 0,
+          "visual_removed": 0,
+          "lidar": 6797,
+          "visual": 91111,
+          "alignment_failure": null,
+          "fit_and_domain_s": 1.2050641450000015,
+          "visible_grid": 10879,
+          "hidden_grid": 0,
+          "low_support_control_rms_m": {
+            "A1": 0.03369571644720939,
+            "A2": 0.0251828065992663,
+            "A3": 0.024995603769423322
+          },
+          "vision_weight_range": [
+            62.377121774490284,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.16470183117941464
+        },
+        {
+          "beams": 64,
+          "condition": "hole_2x4",
+          "xy": [
+            14.9,
+            -0.09999999999999787
+          ],
+          "raw_retained": 122138,
+          "raw_removed": 279,
+          "visual_removed": 2343,
+          "lidar": 6518,
+          "visual": 88768,
+          "alignment_failure": null,
+          "fit_and_domain_s": 1.1837259240000009,
+          "visible_grid": 10791,
+          "hidden_grid": 521,
+          "low_support_control_rms_m": {
+            "A1": 0.033708658258378,
+            "A2": 0.02524529196922637,
+            "A3": 0.025058451152245854
+          },
+          "vision_weight_range": [
+            63.72727674816204,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.16778165953090599
+        },
+        {
+          "beams": 64,
+          "condition": "hole_3x6",
+          "xy": [
+            14.9,
+            0.3000000000000007
+          ],
+          "raw_retained": 121855,
+          "raw_removed": 562,
+          "visual_removed": 5507,
+          "lidar": 6236,
+          "visual": 85603,
+          "alignment_failure": null,
+          "fit_and_domain_s": 1.1570616169999965,
+          "visible_grid": 10585,
+          "hidden_grid": 727,
+          "low_support_control_rms_m": {
+            "A1": 0.033761018429017,
+            "A2": 0.025302111995135945,
+            "A3": 0.025119744913871356
+          },
+          "vision_weight_range": [
+            63.55994183385591,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.17233603537856063
+        },
+        {
+          "beams": 32,
+          "condition": "native",
+          "raw_retained": 61267,
+          "raw_removed": 0,
+          "visual_removed": 0,
+          "lidar": 3303,
+          "visual": 91054,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.974447302999998,
+          "visible_grid": 7641,
+          "hidden_grid": 0,
+          "low_support_control_rms_m": {
+            "A1": 0.02257091027448451,
+            "A2": 0.01599304637765975,
+            "A3": 0.015250765168132542
+          },
+          "vision_weight_range": [
+            60.52770099840638,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.16659404953848295
+        },
+        {
+          "beams": 32,
+          "condition": "hole_2x4",
+          "xy": [
+            14.9,
+            -0.09999999999999787
+          ],
+          "raw_retained": 61124,
+          "raw_removed": 143,
+          "visual_removed": 2334,
+          "lidar": 3184,
+          "visual": 88719,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.9317206659999968,
+          "visible_grid": 7549,
+          "hidden_grid": 255,
+          "low_support_control_rms_m": {
+            "A1": 0.023013683963616912,
+            "A2": 0.016182788859171165,
+            "A3": 0.015360735453275029
+          },
+          "vision_weight_range": [
+            61.12719015718999,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.169599998780805
+        },
+        {
+          "beams": 32,
+          "condition": "hole_3x6",
+          "xy": [
+            14.9,
+            0.3000000000000007
+          ],
+          "raw_retained": 60993,
+          "raw_removed": 274,
+          "visual_removed": 5499,
+          "lidar": 3055,
+          "visual": 85554,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.968358533,
+          "visible_grid": 7332,
+          "hidden_grid": 460,
+          "low_support_control_rms_m": {
+            "A1": 0.02245594514697754,
+            "A2": 0.015960757508347856,
+            "A3": 0.015221386045479927
+          },
+          "vision_weight_range": [
+            59.954711436254776,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.17418637892510386
+        },
+        {
+          "beams": 16,
+          "condition": "native",
+          "raw_retained": 30778,
+          "raw_removed": 0,
+          "visual_removed": 0,
+          "lidar": 1654,
+          "visual": 91008,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.8174182200000004,
+          "visible_grid": 5032,
+          "hidden_grid": 0,
+          "low_support_control_rms_m": {
+            "A1": 0.018103525053749764,
+            "A2": 0.011897167784574239,
+            "A3": 0.011575518750359046
+          },
+          "vision_weight_range": [
+            60.359261821057075,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.16708724791513152
+        },
+        {
+          "beams": 16,
+          "condition": "hole_2x4",
+          "xy": [
+            14.9,
+            -0.09999999999999787
+          ],
+          "raw_retained": 30730,
+          "raw_removed": 48,
+          "visual_removed": 2333,
+          "lidar": 1633,
+          "visual": 88675,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.800978716000003,
+          "visible_grid": 4935,
+          "hidden_grid": 200,
+          "low_support_control_rms_m": {
+            "A1": 0.01810865139987924,
+            "A2": 0.011832252056508997,
+            "A3": 0.011504569607869417
+          },
+          "vision_weight_range": [
+            60.37803840405726,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.17028717114643102
+        },
+        {
+          "beams": 16,
+          "condition": "hole_3x6",
+          "xy": [
+            14.9,
+            0.3000000000000007
+          ],
+          "raw_retained": 30647,
+          "raw_removed": 131,
+          "visual_removed": 5486,
+          "lidar": 1552,
+          "visual": 85529,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.7773594820000014,
+          "visible_grid": 4752,
+          "hidden_grid": 182,
+          "low_support_control_rms_m": {
+            "A1": 0.01828877413795493,
+            "A2": 0.011760103769652136,
+            "A3": 0.011412218013532626
+          },
+          "vision_weight_range": [
+            60.35386640667669,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.17455124451096724
+        }
+      ]
+    },
+    {
+      "frame": "003748",
+      "drive": "2011_09_26_drive_0002_sync",
+      "dc_full_scan_overlap_px": 9266,
+      "dc_full_scan_median_depth_delta_m": 0.056263682887457644,
+      "dc_png_sha256": "6f9f825cc6f375ecb906ca3fcb8df7ddc4668e725e783bb9338d6f8388e72598",
+      "dc_non_input_points": 17174,
+      "dc_guarded_points": 3932,
+      "eligible_holes": [
+        "hole_2x4",
+        "hole_3x6"
+      ],
+      "cases": [
+        {
+          "beams": 64,
+          "condition": "native",
+          "raw_retained": 122600,
+          "raw_removed": 0,
+          "visual_removed": 0,
+          "lidar": 6376,
+          "visual": 86041,
+          "alignment_failure": null,
+          "fit_and_domain_s": 1.1744505750000016,
+          "visible_grid": 10065,
+          "hidden_grid": 0,
+          "low_support_control_rms_m": {
+            "A1": 0.019221804527227594,
+            "A2": 0.011383962252804148,
+            "A3": 0.01050544364074428
+          },
+          "vision_weight_range": [
+            56.820322437976884,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.17110934318568108
+        },
+        {
+          "beams": 64,
+          "condition": "hole_2x4",
+          "xy": [
+            14.9,
+            -0.09999999999999787
+          ],
+          "raw_retained": 122321,
+          "raw_removed": 279,
+          "visual_removed": 2382,
+          "lidar": 6096,
+          "visual": 83657,
+          "alignment_failure": null,
+          "fit_and_domain_s": 1.124475192999995,
+          "visible_grid": 9988,
+          "hidden_grid": 530,
+          "low_support_control_rms_m": {
+            "A1": 0.019276320477458874,
+            "A2": 0.011388340625129657,
+            "A3": 0.010488454137261816
+          },
+          "vision_weight_range": [
+            56.48384419880396,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.17408574051378
+        },
+        {
+          "beams": 64,
+          "condition": "hole_3x6",
+          "xy": [
+            14.9,
+            0.3000000000000007
+          ],
+          "raw_retained": 122041,
+          "raw_removed": 559,
+          "visual_removed": 5584,
+          "lidar": 5818,
+          "visual": 80453,
+          "alignment_failure": null,
+          "fit_and_domain_s": 1.0944453769999996,
+          "visible_grid": 9783,
+          "hidden_grid": 731,
+          "low_support_control_rms_m": {
+            "A1": 0.019117191262473715,
+            "A2": 0.011448721657226872,
+            "A3": 0.010540372491158616
+          },
+          "vision_weight_range": [
+            56.35723575384986,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.1787082614631724
+        },
+        {
+          "beams": 32,
+          "condition": "native",
+          "raw_retained": 61351,
+          "raw_removed": 0,
+          "visual_removed": 0,
+          "lidar": 3133,
+          "visual": 85984,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.8946258040000004,
+          "visible_grid": 6929,
+          "hidden_grid": 0,
+          "low_support_control_rms_m": {
+            "A1": 0.01703969345700739,
+            "A2": 0.009340551985249506,
+            "A3": 0.008595332353394377
+          },
+          "vision_weight_range": [
+            49.96490152532269,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.17337655831647328
+        },
+        {
+          "beams": 32,
+          "condition": "hole_2x4",
+          "xy": [
+            14.9,
+            -0.09999999999999787
+          ],
+          "raw_retained": 61208,
+          "raw_removed": 143,
+          "visual_removed": 2378,
+          "lidar": 2991,
+          "visual": 83603,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.8792784369999964,
+          "visible_grid": 6834,
+          "hidden_grid": 260,
+          "low_support_control_rms_m": {
+            "A1": 0.01715151929974785,
+            "A2": 0.009454147951799998,
+            "A3": 0.008710496761811307
+          },
+          "vision_weight_range": [
+            49.84634304367818,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.17652637886544967
+        },
+        {
+          "beams": 32,
+          "condition": "hole_3x6",
+          "xy": [
+            14.9,
+            0.3000000000000007
+          ],
+          "raw_retained": 61078,
+          "raw_removed": 273,
+          "visual_removed": 5569,
+          "lidar": 2862,
+          "visual": 80411,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.851024331000005,
+          "visible_grid": 6618,
+          "hidden_grid": 476,
+          "low_support_control_rms_m": {
+            "A1": 0.017032775877606446,
+            "A2": 0.009553734672470528,
+            "A3": 0.008807532142361716
+          },
+          "vision_weight_range": [
+            49.178268670372006,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.18081699366865853
+        },
+        {
+          "beams": 16,
+          "condition": "native",
+          "raw_retained": 30849,
+          "raw_removed": 0,
+          "visual_removed": 0,
+          "lidar": 1558,
+          "visual": 85925,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.7577851469999928,
+          "visible_grid": 4529,
+          "hidden_grid": 0,
+          "low_support_control_rms_m": {
+            "A1": 0.017419110387149616,
+            "A2": 0.010487491753840703,
+            "A3": 0.010229642252272334
+          },
+          "vision_weight_range": [
+            49.191951787126364,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.17280919287649413
+        },
+        {
+          "beams": 16,
+          "condition": "hole_2x4",
+          "xy": [
+            14.9,
+            -0.09999999999999787
+          ],
+          "raw_retained": 30801,
+          "raw_removed": 48,
+          "visual_removed": 2379,
+          "lidar": 1536,
+          "visual": 83546,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.7457148929999988,
+          "visible_grid": 4430,
+          "hidden_grid": 168,
+          "low_support_control_rms_m": {
+            "A1": 0.017456327127585495,
+            "A2": 0.01046068497026611,
+            "A3": 0.010212939060826518
+          },
+          "vision_weight_range": [
+            49.25234370237446,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.17629368758798009
+        },
+        {
+          "beams": 16,
+          "condition": "hole_3x6",
+          "xy": [
+            14.9,
+            0.3000000000000007
+          ],
+          "raw_retained": 30719,
+          "raw_removed": 130,
+          "visual_removed": 5579,
+          "lidar": 1456,
+          "visual": 80343,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.7415146270000008,
+          "visible_grid": 4228,
+          "hidden_grid": 160,
+          "low_support_control_rms_m": {
+            "A1": 0.016957023759265697,
+            "A2": 0.010286695184691733,
+            "A3": 0.010031461148625064
+          },
+          "vision_weight_range": [
+            49.38445348462043,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.18089900265047554
+        }
+      ]
+    },
+    {
+      "frame": "001427",
+      "drive": "2011_09_26_drive_0002_sync",
+      "dc_full_scan_overlap_px": 9334,
+      "dc_full_scan_median_depth_delta_m": 0.061367375587594086,
+      "dc_png_sha256": "0f9cb8d6aecb441a187c911635ed1a2c231292561c8c0846597f2a05a296e678",
+      "dc_non_input_points": 16629,
+      "dc_guarded_points": 3207,
+      "eligible_holes": [
+        "hole_2x4",
+        "hole_3x6"
+      ],
+      "cases": [
+        {
+          "beams": 64,
+          "condition": "native",
+          "raw_retained": 122702,
+          "raw_removed": 0,
+          "visual_removed": 0,
+          "lidar": 6862,
+          "visual": 92916,
+          "alignment_failure": null,
+          "fit_and_domain_s": 1.1736418370000052,
+          "visible_grid": 10488,
+          "hidden_grid": 0,
+          "low_support_control_rms_m": {
+            "A1": 0.01632947342615381,
+            "A2": 0.008494260318062318,
+            "A3": 0.008195854791358252
+          },
+          "vision_weight_range": [
+            71.8417633839724,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.17186576999329334
+        },
+        {
+          "beams": 64,
+          "condition": "hole_2x4",
+          "xy": [
+            14.9,
+            0.10000000000000142
+          ],
+          "raw_retained": 122422,
+          "raw_removed": 280,
+          "visual_removed": 2325,
+          "lidar": 6581,
+          "visual": 90591,
+          "alignment_failure": null,
+          "fit_and_domain_s": 1.2016726230000074,
+          "visible_grid": 10404,
+          "hidden_grid": 512,
+          "low_support_control_rms_m": {
+            "A1": 0.016603435322003916,
+            "A2": 0.008514650843032523,
+            "A3": 0.008217769286465537
+          },
+          "vision_weight_range": [
+            71.78798649413422,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.1745248400096393
+        },
+        {
+          "beams": 64,
+          "condition": "hole_3x6",
+          "xy": [
+            14.9,
+            0.5
+          ],
+          "raw_retained": 122056,
+          "raw_removed": 646,
+          "visual_removed": 5506,
+          "lidar": 6216,
+          "visual": 87412,
+          "alignment_failure": null,
+          "fit_and_domain_s": 1.1386049869999937,
+          "visible_grid": 10198,
+          "hidden_grid": 710,
+          "low_support_control_rms_m": {
+            "A1": 0.016268978378913175,
+            "A2": 0.008578276836491844,
+            "A3": 0.008282093352663476
+          },
+          "vision_weight_range": [
+            72.0510071232231,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.17861729934085263
+        },
+        {
+          "beams": 32,
+          "condition": "native",
+          "raw_retained": 61409,
+          "raw_removed": 0,
+          "visual_removed": 0,
+          "lidar": 3376,
+          "visual": 92959,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.9372656499999863,
+          "visible_grid": 7314,
+          "hidden_grid": 0,
+          "low_support_control_rms_m": {
+            "A1": 0.014393793508248003,
+            "A2": 0.007725847501272302,
+            "A3": 0.007293863383618183
+          },
+          "vision_weight_range": [
+            67.3332708490297,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.1728586899908651
+        },
+        {
+          "beams": 32,
+          "condition": "hole_2x4",
+          "xy": [
+            14.9,
+            0.10000000000000142
+          ],
+          "raw_retained": 61272,
+          "raw_removed": 137,
+          "visual_removed": 2336,
+          "lidar": 3239,
+          "visual": 90623,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.9144751709999923,
+          "visible_grid": 7232,
+          "hidden_grid": 263,
+          "low_support_control_rms_m": {
+            "A1": 0.014864503498136972,
+            "A2": 0.00785336360972573,
+            "A3": 0.007444566397792206
+          },
+          "vision_weight_range": [
+            67.21850501003426,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.175836375818726
+        },
+        {
+          "beams": 32,
+          "condition": "hole_3x6",
+          "xy": [
+            14.9,
+            0.5
+          ],
+          "raw_retained": 61122,
+          "raw_removed": 287,
+          "visual_removed": 5517,
+          "lidar": 3089,
+          "visual": 87446,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.8807113539999989,
+          "visible_grid": 7030,
+          "hidden_grid": 462,
+          "low_support_control_rms_m": {
+            "A1": 0.014537550539020606,
+            "A2": 0.007970215238477794,
+            "A3": 0.007570349246287157
+          },
+          "vision_weight_range": [
+            67.12302225202515,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.17961223042786567
+        },
+        {
+          "beams": 16,
+          "condition": "native",
+          "raw_retained": 30871,
+          "raw_removed": 0,
+          "visual_removed": 0,
+          "lidar": 1706,
+          "visual": 92809,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.8117404160000063,
+          "visible_grid": 4666,
+          "hidden_grid": 0,
+          "low_support_control_rms_m": {
+            "A1": 0.016326236343487812,
+            "A2": 0.009099980388360912,
+            "A3": 0.008872546991357824
+          },
+          "vision_weight_range": [
+            64.09411309632992,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.17441680741594676
+        },
+        {
+          "beams": 16,
+          "condition": "hole_2x4",
+          "xy": [
+            14.9,
+            0.10000000000000142
+          ],
+          "raw_retained": 30780,
+          "raw_removed": 91,
+          "visual_removed": 2318,
+          "lidar": 1621,
+          "visual": 90499,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.7773478490000088,
+          "visible_grid": 4452,
+          "hidden_grid": 170,
+          "low_support_control_rms_m": {
+            "A1": 0.01636948027461322,
+            "A2": 0.009098514049423684,
+            "A3": 0.00888554254632162
+          },
+          "vision_weight_range": [
+            64.08238699624732,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.17759448303321002
+        },
+        {
+          "beams": 16,
+          "condition": "hole_3x6",
+          "xy": [
+            14.9,
+            0.5
+          ],
+          "raw_retained": 30734,
+          "raw_removed": 137,
+          "visual_removed": 5481,
+          "lidar": 1537,
+          "visual": 87367,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.8085049950000069,
+          "visible_grid": 4025,
+          "hidden_grid": 95,
+          "low_support_control_rms_m": {
+            "A1": 0.01708358017750566,
+            "A2": 0.00908135145028137,
+            "A3": 0.008902431297419574
+          },
+          "vision_weight_range": [
+            64.3903182340149,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.1816647900076602
+        }
+      ]
+    },
+    {
+      "frame": "004638",
+      "drive": "2011_09_26_drive_0002_sync",
+      "dc_full_scan_overlap_px": 9394,
+      "dc_full_scan_median_depth_delta_m": 0.05663389373293404,
+      "dc_png_sha256": "bece385bd8f4a94be000e7028b9e0ea664ad55e283d57152fd978d5243283385",
+      "dc_non_input_points": 16582,
+      "dc_guarded_points": 3501,
+      "eligible_holes": [
+        "hole_2x4",
+        "hole_3x6"
+      ],
+      "cases": [
+        {
+          "beams": 64,
+          "condition": "native",
+          "raw_retained": 122863,
+          "raw_removed": 0,
+          "visual_removed": 0,
+          "lidar": 6610,
+          "visual": 87975,
+          "alignment_failure": null,
+          "fit_and_domain_s": 1.1518935300000095,
+          "visible_grid": 10120,
+          "hidden_grid": 0,
+          "low_support_control_rms_m": {
+            "A1": 0.020661680750263145,
+            "A2": 0.01053052255682423,
+            "A3": 0.009557624387496622
+          },
+          "vision_weight_range": [
+            46.51533746759575,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.1797822201646666
+        },
+        {
+          "beams": 64,
+          "condition": "hole_2x4",
+          "xy": [
+            14.9,
+            0.3000000000000007
+          ],
+          "raw_retained": 122585,
+          "raw_removed": 278,
+          "visual_removed": 2384,
+          "lidar": 6332,
+          "visual": 85590,
+          "alignment_failure": null,
+          "fit_and_domain_s": 1.1424945680000036,
+          "visible_grid": 10037,
+          "hidden_grid": 446,
+          "low_support_control_rms_m": {
+            "A1": 0.021102615515370553,
+            "A2": 0.010604429205857604,
+            "A3": 0.009639142223345333
+          },
+          "vision_weight_range": [
+            46.395309227915405,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.18329248567138365
+        },
+        {
+          "beams": 64,
+          "condition": "hole_3x6",
+          "xy": [
+            14.9,
+            0.5
+          ],
+          "raw_retained": 122216,
+          "raw_removed": 647,
+          "visual_removed": 5538,
+          "lidar": 5963,
+          "visual": 82436,
+          "alignment_failure": null,
+          "fit_and_domain_s": 1.0945525409999988,
+          "visible_grid": 9821,
+          "hidden_grid": 652,
+          "low_support_control_rms_m": {
+            "A1": 0.02111349835741884,
+            "A2": 0.01079725955078383,
+            "A3": 0.009831128785925831
+          },
+          "vision_weight_range": [
+            45.793089507031446,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.1879573487138288
+        },
+        {
+          "beams": 32,
+          "condition": "native",
+          "raw_retained": 61529,
+          "raw_removed": 0,
+          "visual_removed": 0,
+          "lidar": 3267,
+          "visual": 87995,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.9088955739999989,
+          "visible_grid": 6860,
+          "hidden_grid": 0,
+          "low_support_control_rms_m": {
+            "A1": 0.015264156743742551,
+            "A2": 0.008508007711166577,
+            "A3": 0.008066887099273884
+          },
+          "vision_weight_range": [
+            57.359076727257225,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.1803395776063247
+        },
+        {
+          "beams": 32,
+          "condition": "hole_2x4",
+          "xy": [
+            14.9,
+            0.3000000000000007
+          ],
+          "raw_retained": 61387,
+          "raw_removed": 142,
+          "visual_removed": 2384,
+          "lidar": 3101,
+          "visual": 85610,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.8785859649999992,
+          "visible_grid": 6758,
+          "hidden_grid": 301,
+          "low_support_control_rms_m": {
+            "A1": 0.016048102663813946,
+            "A2": 0.008808546839951149,
+            "A3": 0.0083831216218023
+          },
+          "vision_weight_range": [
+            57.21379054272606,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.18387215287531794
+        },
+        {
+          "beams": 32,
+          "condition": "hole_3x6",
+          "xy": [
+            14.9,
+            0.5
+          ],
+          "raw_retained": 61170,
+          "raw_removed": 359,
+          "visual_removed": 5541,
+          "lidar": 2900,
+          "visual": 82450,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.8464777660000067,
+          "visible_grid": 6546,
+          "hidden_grid": 509,
+          "low_support_control_rms_m": {
+            "A1": 0.015486682228499846,
+            "A2": 0.008922554738213564,
+            "A3": 0.008497594039795666
+          },
+          "vision_weight_range": [
+            57.024806305214284,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.1889882376314066
+        },
+        {
+          "beams": 16,
+          "condition": "native",
+          "raw_retained": 30893,
+          "raw_removed": 0,
+          "visual_removed": 0,
+          "lidar": 1555,
+          "visual": 87863,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.7552859189999879,
+          "visible_grid": 4068,
+          "hidden_grid": 0,
+          "low_support_control_rms_m": {
+            "A1": 0.01758871526703847,
+            "A2": 0.009983480732426825,
+            "A3": 0.009636509834120666
+          },
+          "vision_weight_range": [
+            58.971532919432136,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.1828580313197464
+        },
+        {
+          "beams": 16,
+          "condition": "hole_2x4",
+          "xy": [
+            14.9,
+            0.3000000000000007
+          ],
+          "raw_retained": 30798,
+          "raw_removed": 95,
+          "visual_removed": 2338,
+          "lidar": 1420,
+          "visual": 85528,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.7458300199999996,
+          "visible_grid": 3658,
+          "hidden_grid": 36,
+          "low_support_control_rms_m": {
+            "A1": 0.0181510909620912,
+            "A2": 0.01019376123329473,
+            "A3": 0.009892882046930673
+          },
+          "vision_weight_range": [
+            58.68344800131833,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.18678598549901407
+        },
+        {
+          "beams": 16,
+          "condition": "hole_3x6",
+          "xy": [
+            14.9,
+            0.5
+          ],
+          "raw_retained": 30750,
+          "raw_removed": 143,
+          "visual_removed": 5487,
+          "lidar": 1386,
+          "visual": 82382,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.6920002570000037,
+          "visible_grid": 3462,
+          "hidden_grid": 41,
+          "low_support_control_rms_m": {
+            "A1": 0.017848728886967605,
+            "A2": 0.009968703548065672,
+            "A3": 0.009563301183189904
+          },
+          "vision_weight_range": [
+            58.99597904900547,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.192876990812814
+        }
+      ]
+    },
+    {
+      "frame": "002908",
+      "drive": "2011_09_26_drive_0002_sync",
+      "dc_full_scan_overlap_px": 9078,
+      "dc_full_scan_median_depth_delta_m": 0.06227302486962838,
+      "dc_png_sha256": "ff5ea532b9ab7410756d0cbc62d72b002208fc24b6a4f69f7e122e8ed9d15476",
+      "dc_non_input_points": 16268,
+      "dc_guarded_points": 3420,
+      "eligible_holes": [
+        "hole_2x4",
+        "hole_3x6"
+      ],
+      "cases": [
+        {
+          "beams": 64,
+          "condition": "native",
+          "raw_retained": 122874,
+          "raw_removed": 0,
+          "visual_removed": 0,
+          "lidar": 7310,
+          "visual": 99203,
+          "alignment_failure": null,
+          "fit_and_domain_s": 1.2581310369999983,
+          "visible_grid": 11112,
+          "hidden_grid": 0,
+          "low_support_control_rms_m": {
+            "A1": 0.027423590113639835,
+            "A2": 0.01881408755847728,
+            "A3": 0.016905363788257112
+          },
+          "vision_weight_range": [
+            28.059624751040413,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.17068736524935488
+        },
+        {
+          "beams": 64,
+          "condition": "hole_2x4",
+          "xy": [
+            14.9,
+            0.3000000000000007
+          ],
+          "raw_retained": 122611,
+          "raw_removed": 263,
+          "visual_removed": 2316,
+          "lidar": 7047,
+          "visual": 96889,
+          "alignment_failure": null,
+          "fit_and_domain_s": 1.2464228310000038,
+          "visible_grid": 11035,
+          "hidden_grid": 562,
+          "low_support_control_rms_m": {
+            "A1": 0.027447982022099016,
+            "A2": 0.018819265037989395,
+            "A3": 0.01691252565186982
+          },
+          "vision_weight_range": [
+            28.37607711545782,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.17322944126362352
+        },
+        {
+          "beams": 64,
+          "condition": "hole_3x6",
+          "xy": [
+            14.9,
+            0.5
+          ],
+          "raw_retained": 122240,
+          "raw_removed": 634,
+          "visual_removed": 5467,
+          "lidar": 6676,
+          "visual": 93744,
+          "alignment_failure": null,
+          "fit_and_domain_s": 1.2004778820000013,
+          "visible_grid": 10817,
+          "hidden_grid": 785,
+          "low_support_control_rms_m": {
+            "A1": 0.02729246001387792,
+            "A2": 0.018641442136729764,
+            "A3": 0.01688181994522362
+          },
+          "vision_weight_range": [
+            29.014522700257785,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.176957956345431
+        },
+        {
+          "beams": 32,
+          "condition": "native",
+          "raw_retained": 61548,
+          "raw_removed": 0,
+          "visual_removed": 0,
+          "lidar": 3639,
+          "visual": 99265,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.9818958059999972,
+          "visible_grid": 7921,
+          "hidden_grid": 0,
+          "low_support_control_rms_m": {
+            "A1": 0.027463663523493692,
+            "A2": 0.01859649426942892,
+            "A3": 0.017467744788883893
+          },
+          "vision_weight_range": [
+            35.24095609190761,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.17157926850859215
+        },
+        {
+          "beams": 32,
+          "condition": "hole_2x4",
+          "xy": [
+            14.9,
+            0.3000000000000007
+          ],
+          "raw_retained": 61407,
+          "raw_removed": 141,
+          "visual_removed": 2317,
+          "lidar": 3498,
+          "visual": 96950,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.9643719080000039,
+          "visible_grid": 7836,
+          "hidden_grid": 265,
+          "low_support_control_rms_m": {
+            "A1": 0.027413803210005794,
+            "A2": 0.018527294000338635,
+            "A3": 0.01739515512299939
+          },
+          "vision_weight_range": [
+            35.62877750666906,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.1742224242960095
+        },
+        {
+          "beams": 32,
+          "condition": "hole_3x6",
+          "xy": [
+            14.9,
+            0.5
+          ],
+          "raw_retained": 61251,
+          "raw_removed": 297,
+          "visual_removed": 5479,
+          "lidar": 3323,
+          "visual": 93793,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.9343970989999946,
+          "visible_grid": 7615,
+          "hidden_grid": 486,
+          "low_support_control_rms_m": {
+            "A1": 0.02763441598177244,
+            "A2": 0.01868890287239609,
+            "A3": 0.017539382531574995
+          },
+          "vision_weight_range": [
+            36.645617980888474,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.1781142615517568
+        },
+        {
+          "beams": 16,
+          "condition": "native",
+          "raw_retained": 30904,
+          "raw_removed": 0,
+          "visual_removed": 0,
+          "lidar": 1790,
+          "visual": 99224,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.8292999789999982,
+          "visible_grid": 4939,
+          "hidden_grid": 0,
+          "low_support_control_rms_m": {
+            "A1": 0.018864421278045676,
+            "A2": 0.01099099350320758,
+            "A3": 0.01079472606584313
+          },
+          "vision_weight_range": [
+            64.03315300488887,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.1717198551771509
+        },
+        {
+          "beams": 16,
+          "condition": "hole_2x4",
+          "xy": [
+            14.9,
+            0.3000000000000007
+          ],
+          "raw_retained": 30810,
+          "raw_removed": 94,
+          "visual_removed": 2318,
+          "lidar": 1662,
+          "visual": 96914,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.8102372580000008,
+          "visible_grid": 4513,
+          "hidden_grid": 68,
+          "low_support_control_rms_m": {
+            "A1": 0.019246366849479488,
+            "A2": 0.010925546859222576,
+            "A3": 0.010783382566407604
+          },
+          "vision_weight_range": [
+            63.0086463616805,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.17638959914070373
+        },
+        {
+          "beams": 16,
+          "condition": "hole_3x6",
+          "xy": [
+            14.9,
+            0.5
+          ],
+          "raw_retained": 30764,
+          "raw_removed": 140,
+          "visual_removed": 5464,
+          "lidar": 1623,
+          "visual": 93777,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.7799450259999929,
+          "visible_grid": 4294,
+          "hidden_grid": 59,
+          "low_support_control_rms_m": {
+            "A1": 0.01903676910104089,
+            "A2": 0.010513245560906619,
+            "A3": 0.010385968281246423
+          },
+          "vision_weight_range": [
+            62.503196023116175,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.17967129784774283
+        }
+      ]
+    },
+    {
+      "frame": "002064",
+      "drive": "2011_09_26_drive_0079_sync",
+      "dc_full_scan_overlap_px": 8665,
+      "dc_full_scan_median_depth_delta_m": 0.039727605895299334,
+      "dc_png_sha256": "567d926c5a0f96efc3b76997300be80b36e6a4bf1cbed02359d6758343a132f1",
+      "dc_non_input_points": 12452,
+      "dc_guarded_points": 2880,
+      "eligible_holes": [
+        "hole_2x4",
+        "hole_3x6"
+      ],
+      "cases": [
+        {
+          "beams": 64,
+          "condition": "native",
+          "raw_retained": 126162,
+          "raw_removed": 0,
+          "visual_removed": 0,
+          "lidar": 5153,
+          "visual": 66453,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.8540645559999973,
+          "visible_grid": 4489,
+          "hidden_grid": 1,
+          "low_support_control_rms_m": {
+            "A1": 0.03306827753823829,
+            "A2": 0.014389404174300843,
+            "A3": 0.013552734204923499
+          },
+          "vision_weight_range": [
+            32.34428155351659,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.20035479329188896
+        },
+        {
+          "beams": 64,
+          "condition": "hole_2x4",
+          "xy": [
+            14.9,
+            -0.09999999999999787
+          ],
+          "raw_retained": 125877,
+          "raw_removed": 285,
+          "visual_removed": 2415,
+          "lidar": 4868,
+          "visual": 64037,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.8207667710000095,
+          "visible_grid": 4408,
+          "hidden_grid": 215,
+          "low_support_control_rms_m": {
+            "A1": 0.03291454579075871,
+            "A2": 0.014148191069622108,
+            "A3": 0.0134521377198747
+          },
+          "vision_weight_range": [
+            30.215371943212787,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.20384565481305028
+        },
+        {
+          "beams": 64,
+          "condition": "hole_3x6",
+          "xy": [
+            14.9,
+            0.10000000000000142
+          ],
+          "raw_retained": 125510,
+          "raw_removed": 652,
+          "visual_removed": 5736,
+          "lidar": 4501,
+          "visual": 60715,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.770430288,
+          "visible_grid": 4185,
+          "hidden_grid": 423,
+          "low_support_control_rms_m": {
+            "A1": 0.03212062295438946,
+            "A2": 0.014153871513995941,
+            "A3": 0.013684404035639244
+          },
+          "vision_weight_range": [
+            28.17739471268313,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.20909818845596306
+        },
+        {
+          "beams": 32,
+          "condition": "native",
+          "raw_retained": 63312,
+          "raw_removed": 0,
+          "visual_removed": 0,
+          "lidar": 2557,
+          "visual": 66427,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.6664679140000089,
+          "visible_grid": 3522,
+          "hidden_grid": 1,
+          "low_support_control_rms_m": {
+            "A1": 0.024151063301114876,
+            "A2": 0.011953416142276612,
+            "A3": 0.010814184893056796
+          },
+          "vision_weight_range": [
+            32.26330710074178,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.19943718747850508
+        },
+        {
+          "beams": 32,
+          "condition": "hole_2x4",
+          "xy": [
+            14.9,
+            -0.09999999999999787
+          ],
+          "raw_retained": 63167,
+          "raw_removed": 145,
+          "visual_removed": 2412,
+          "lidar": 2412,
+          "visual": 64015,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.6505086839999876,
+          "visible_grid": 3440,
+          "hidden_grid": 116,
+          "low_support_control_rms_m": {
+            "A1": 0.024483500151955467,
+            "A2": 0.011985873797650492,
+            "A3": 0.010725120336962725
+          },
+          "vision_weight_range": [
+            31.50968676414413,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.2029141399017764
+        },
+        {
+          "beams": 32,
+          "condition": "hole_3x6",
+          "xy": [
+            14.9,
+            0.10000000000000142
+          ],
+          "raw_retained": 62950,
+          "raw_removed": 362,
+          "visual_removed": 5732,
+          "lidar": 2195,
+          "visual": 60695,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.6124809890000051,
+          "visible_grid": 3212,
+          "hidden_grid": 339,
+          "low_support_control_rms_m": {
+            "A1": 0.023313701901186278,
+            "A2": 0.012020073346456899,
+            "A3": 0.01087084579263304
+          },
+          "vision_weight_range": [
+            29.433140254168375,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.2084370532727982
+        },
+        {
+          "beams": 16,
+          "condition": "native",
+          "raw_retained": 31870,
+          "raw_removed": 0,
+          "visual_removed": 0,
+          "lidar": 1153,
+          "visual": 66427,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.5362224269999984,
+          "visible_grid": 2140,
+          "hidden_grid": 0,
+          "low_support_control_rms_m": {
+            "A1": 0.021342358972675158,
+            "A2": 0.01410073704587792,
+            "A3": 0.013332801690162408
+          },
+          "vision_weight_range": [
+            29.440505570351863,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.20158534686817692
+        },
+        {
+          "beams": 16,
+          "condition": "hole_2x4",
+          "xy": [
+            14.9,
+            -0.09999999999999787
+          ],
+          "raw_retained": 31773,
+          "raw_removed": 97,
+          "visual_removed": 2423,
+          "lidar": 1067,
+          "visual": 64004,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.540318427999992,
+          "visible_grid": 1803,
+          "hidden_grid": 4,
+          "low_support_control_rms_m": {
+            "A1": 0.021217256407102675,
+            "A2": 0.014185680074288345,
+            "A3": 0.013587925770271403
+          },
+          "vision_weight_range": [
+            27.26513668947143,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.20544260154479937
+        },
+        {
+          "beams": 16,
+          "condition": "hole_3x6",
+          "xy": [
+            14.9,
+            0.10000000000000142
+          ],
+          "raw_retained": 31725,
+          "raw_removed": 145,
+          "visual_removed": 5574,
+          "lidar": 1099,
+          "visual": 60853,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.5137722540000027,
+          "visible_grid": 1979,
+          "hidden_grid": 4,
+          "low_support_control_rms_m": {
+            "A1": 0.02603154651108522,
+            "A2": 0.016213612295527206,
+            "A3": 0.015164679370209454
+          },
+          "vision_weight_range": [
+            26.442290673968504,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.2117757650389037
+        }
+      ]
+    },
+    {
+      "frame": "000783",
+      "drive": "2011_09_26_drive_0079_sync",
+      "dc_full_scan_overlap_px": 7918,
+      "dc_full_scan_median_depth_delta_m": 0.04957906577517868,
+      "dc_png_sha256": "565d3d1782bc040fd631b9aa86643721186b372336639248e1115412dc66b5d8",
+      "dc_non_input_points": 12495,
+      "dc_guarded_points": 2445,
+      "eligible_holes": [
+        "hole_2x4",
+        "hole_3x6"
+      ],
+      "cases": [
+        {
+          "beams": 64,
+          "condition": "native",
+          "raw_retained": 125969,
+          "raw_removed": 0,
+          "visual_removed": 0,
+          "lidar": 5556,
+          "visual": 76020,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.9307358789999967,
+          "visible_grid": 5080,
+          "hidden_grid": 1,
+          "low_support_control_rms_m": {
+            "A1": 0.037467589039221316,
+            "A2": 0.014626420819729749,
+            "A3": 0.014156091626834863
+          },
+          "vision_weight_range": [
+            36.492990825011724,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.21071782525052513
+        },
+        {
+          "beams": 64,
+          "condition": "hole_2x4",
+          "xy": [
+            14.9,
+            -0.09999999999999787
+          ],
+          "raw_retained": 125684,
+          "raw_removed": 285,
+          "visual_removed": 2390,
+          "lidar": 5271,
+          "visual": 73629,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.9002381059999891,
+          "visible_grid": 5011,
+          "hidden_grid": 254,
+          "low_support_control_rms_m": {
+            "A1": 0.03670598880670304,
+            "A2": 0.014768395726850882,
+            "A3": 0.01429711473013329
+          },
+          "vision_weight_range": [
+            41.567048980426165,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.21390052619519834
+        },
+        {
+          "beams": 64,
+          "condition": "hole_3x6",
+          "xy": [
+            14.9,
+            0.10000000000000142
+          ],
+          "raw_retained": 125315,
+          "raw_removed": 654,
+          "visual_removed": 5629,
+          "lidar": 4902,
+          "visual": 70390,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.8808112530000045,
+          "visible_grid": 4826,
+          "hidden_grid": 449,
+          "low_support_control_rms_m": {
+            "A1": 0.036255611130867026,
+            "A2": 0.015039686508895094,
+            "A3": 0.014559140209679028
+          },
+          "vision_weight_range": [
+            41.08864502385759,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.21829830491953317
+        },
+        {
+          "beams": 32,
+          "condition": "native",
+          "raw_retained": 63272,
+          "raw_removed": 0,
+          "visual_removed": 0,
+          "lidar": 2753,
+          "visual": 75976,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.7057163729999871,
+          "visible_grid": 3772,
+          "hidden_grid": 1,
+          "low_support_control_rms_m": {
+            "A1": 0.02736712106647534,
+            "A2": 0.013900135375922497,
+            "A3": 0.012100879856463794
+          },
+          "vision_weight_range": [
+            24.85188328286232,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.21253762459172978
+        },
+        {
+          "beams": 32,
+          "condition": "hole_2x4",
+          "xy": [
+            14.9,
+            -0.09999999999999787
+          ],
+          "raw_retained": 63126,
+          "raw_removed": 146,
+          "visual_removed": 2361,
+          "lidar": 2607,
+          "visual": 73614,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.6807828649999976,
+          "visible_grid": 3695,
+          "hidden_grid": 204,
+          "low_support_control_rms_m": {
+            "A1": 0.02770137321015989,
+            "A2": 0.01402637301890496,
+            "A3": 0.012289860655522745
+          },
+          "vision_weight_range": [
+            24.681003266734894,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.2160888155251638
+        },
+        {
+          "beams": 32,
+          "condition": "hole_3x6",
+          "xy": [
+            14.9,
+            0.10000000000000142
+          ],
+          "raw_retained": 62910,
+          "raw_removed": 362,
+          "visual_removed": 5580,
+          "lidar": 2360,
+          "visual": 70391,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.6540221469999921,
+          "visible_grid": 3487,
+          "hidden_grid": 412,
+          "low_support_control_rms_m": {
+            "A1": 0.028047322850768344,
+            "A2": 0.013990751176039186,
+            "A3": 0.012848003821876754
+          },
+          "vision_weight_range": [
+            22.34800590966428,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.2206559347247035
+        },
+        {
+          "beams": 16,
+          "condition": "native",
+          "raw_retained": 31860,
+          "raw_removed": 0,
+          "visual_removed": 0,
+          "lidar": 1339,
+          "visual": 75969,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.5960076260000022,
+          "visible_grid": 2629,
+          "hidden_grid": 0,
+          "low_support_control_rms_m": {
+            "A1": 0.03526299030939777,
+            "A2": 0.018193564245227917,
+            "A3": 0.0156047132383014
+          },
+          "vision_weight_range": [
+            18.47944342305159,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.21334170014801132
+        },
+        {
+          "beams": 16,
+          "condition": "hole_2x4",
+          "xy": [
+            14.9,
+            -0.09999999999999787
+          ],
+          "raw_retained": 31763,
+          "raw_removed": 97,
+          "visual_removed": 2317,
+          "lidar": 1162,
+          "visual": 73652,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.5895495490000116,
+          "visible_grid": 2177,
+          "hidden_grid": 6,
+          "low_support_control_rms_m": {
+            "A1": 0.03262340640614881,
+            "A2": 0.017818401286888438,
+            "A3": 0.01577609082842807
+          },
+          "vision_weight_range": [
+            18.222823079505094,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.21706270427052737
+        },
+        {
+          "beams": 16,
+          "condition": "hole_3x6",
+          "xy": [
+            14.9,
+            0.10000000000000142
+          ],
+          "raw_retained": 31715,
+          "raw_removed": 145,
+          "visual_removed": 5448,
+          "lidar": 1118,
+          "visual": 70521,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.5726665190000091,
+          "visible_grid": 1964,
+          "hidden_grid": 9,
+          "low_support_control_rms_m": {
+            "A1": 0.032998790165088894,
+            "A2": 0.017646726201984687,
+            "A3": 0.015507708997187009
+          },
+          "vision_weight_range": [
+            18.10300570198755,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.22089999975727043
+        }
+      ]
+    },
+    {
+      "frame": "003068",
+      "drive": "2011_09_26_drive_0079_sync",
+      "dc_full_scan_overlap_px": 7561,
+      "dc_full_scan_median_depth_delta_m": 0.053876937887395115,
+      "dc_png_sha256": "3493e5a0c5f3fdc1c3beb0f50a22d2549ae064761b1cc34a1b84c6551d9bf114",
+      "dc_non_input_points": 8840,
+      "dc_guarded_points": 1377,
+      "eligible_holes": [
+        "hole_2x4",
+        "hole_3x6"
+      ],
+      "cases": [
+        {
+          "beams": 64,
+          "condition": "native",
+          "raw_retained": 125539,
+          "raw_removed": 0,
+          "visual_removed": 0,
+          "lidar": 5363,
+          "visual": 69540,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.923425905000002,
+          "visible_grid": 4983,
+          "hidden_grid": 0,
+          "low_support_control_rms_m": {
+            "A1": 0.036502245220791894,
+            "A2": 0.01603928489259816,
+            "A3": 0.017147714026478814
+          },
+          "vision_weight_range": [
+            20.668342725279548,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.19931630017203472
+        },
+        {
+          "beams": 64,
+          "condition": "hole_2x4",
+          "xy": [
+            14.9,
+            -0.09999999999999787
+          ],
+          "raw_retained": 125260,
+          "raw_removed": 279,
+          "visual_removed": 2419,
+          "lidar": 5084,
+          "visual": 67120,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.8959410809999895,
+          "visible_grid": 4908,
+          "hidden_grid": 239,
+          "low_support_control_rms_m": {
+            "A1": 0.03612985952542179,
+            "A2": 0.015867189245186895,
+            "A3": 0.01762911062604054
+          },
+          "vision_weight_range": [
+            19.053719707166056,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.20243406984000606
+        },
+        {
+          "beams": 64,
+          "condition": "hole_3x6",
+          "xy": [
+            14.9,
+            0.3000000000000007
+          ],
+          "raw_retained": 124838,
+          "raw_removed": 701,
+          "visual_removed": 5671,
+          "lidar": 4662,
+          "visual": 63868,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.8394318130000045,
+          "visible_grid": 4701,
+          "hidden_grid": 445,
+          "low_support_control_rms_m": {
+            "A1": 0.03648964226511933,
+            "A2": 0.01603183887604466,
+            "A3": 0.017861425162529226
+          },
+          "vision_weight_range": [
+            16.985008220512814,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.206849969416188
+        },
+        {
+          "beams": 32,
+          "condition": "native",
+          "raw_retained": 63012,
+          "raw_removed": 0,
+          "visual_removed": 0,
+          "lidar": 2631,
+          "visual": 69489,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.7073265359999965,
+          "visible_grid": 3647,
+          "hidden_grid": 0,
+          "low_support_control_rms_m": {
+            "A1": 0.02688291398653081,
+            "A2": 0.012255040422913034,
+            "A3": 0.012016718138557432
+          },
+          "vision_weight_range": [
+            26.463749033823625,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.1995934706707973
+        },
+        {
+          "beams": 32,
+          "condition": "hole_2x4",
+          "xy": [
+            14.9,
+            -0.09999999999999787
+          ],
+          "raw_retained": 62876,
+          "raw_removed": 136,
+          "visual_removed": 2414,
+          "lidar": 2495,
+          "visual": 67074,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.6914897369999977,
+          "visible_grid": 3567,
+          "hidden_grid": 146,
+          "low_support_control_rms_m": {
+            "A1": 0.026561108143696024,
+            "A2": 0.012045986866775686,
+            "A3": 0.011837061686128704
+          },
+          "vision_weight_range": [
+            25.83543418486716,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.20308531030312468
+        },
+        {
+          "beams": 32,
+          "condition": "hole_3x6",
+          "xy": [
+            14.9,
+            0.3000000000000007
+          ],
+          "raw_retained": 62652,
+          "raw_removed": 360,
+          "visual_removed": 5590,
+          "lidar": 2271,
+          "visual": 63898,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.6578512520000004,
+          "visible_grid": 3353,
+          "hidden_grid": 358,
+          "low_support_control_rms_m": {
+            "A1": 0.029183761491114766,
+            "A2": 0.012578833650869311,
+            "A3": 0.01189002938922088
+          },
+          "vision_weight_range": [
+            24.374218394884608,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.2080205027268059
+        },
+        {
+          "beams": 16,
+          "condition": "native",
+          "raw_retained": 31752,
+          "raw_removed": 0,
+          "visual_removed": 0,
+          "lidar": 1236,
+          "visual": 69488,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.5842922009999967,
+          "visible_grid": 2321,
+          "hidden_grid": 0,
+          "low_support_control_rms_m": {
+            "A1": 0.025292711002414335,
+            "A2": 0.013850858663810051,
+            "A3": 0.014118043584700554
+          },
+          "vision_weight_range": [
+            22.753159452382835,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.2018433161148876
+        },
+        {
+          "beams": 16,
+          "condition": "hole_2x4",
+          "xy": [
+            14.9,
+            -0.09999999999999787
+          ],
+          "raw_retained": 31707,
+          "raw_removed": 45,
+          "visual_removed": 2315,
+          "lidar": 1200,
+          "visual": 67173,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.5675478289999916,
+          "visible_grid": 2154,
+          "hidden_grid": 16,
+          "low_support_control_rms_m": {
+            "A1": 0.02554479314399711,
+            "A2": 0.014004625929327328,
+            "A3": 0.014409915708468966
+          },
+          "vision_weight_range": [
+            22.524565170911128,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.2056396232122007
+        },
+        {
+          "beams": 16,
+          "condition": "hole_3x6",
+          "xy": [
+            14.9,
+            0.3000000000000007
+          ],
+          "raw_retained": 31605,
+          "raw_removed": 147,
+          "visual_removed": 5577,
+          "lidar": 1087,
+          "visual": 63913,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.5440014219999938,
+          "visible_grid": 1864,
+          "hidden_grid": 11,
+          "low_support_control_rms_m": {
+            "A1": 0.026022481465844884,
+            "A2": 0.014018069769697454,
+            "A3": 0.013937327820677586
+          },
+          "vision_weight_range": [
+            24.132879383016604,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.21120670009019832
+        }
+      ]
+    },
+    {
+      "frame": "001811",
+      "drive": "2011_09_26_drive_0113_sync",
+      "dc_full_scan_overlap_px": 5175,
+      "dc_full_scan_median_depth_delta_m": 0.027595383914050586,
+      "dc_png_sha256": "f6652daea45191edb9d9b979ef8181b82adf87c502c326c92873cafbdaa7819f",
+      "dc_non_input_points": 5352,
+      "dc_guarded_points": 1229,
+      "eligible_holes": [
+        "hole_2x4"
+      ],
+      "cases": [
+        {
+          "beams": 64,
+          "condition": "native",
+          "raw_retained": 107435,
+          "raw_removed": 0,
+          "visual_removed": 0,
+          "lidar": 3322,
+          "visual": 53053,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.5804428960000081,
+          "visible_grid": 852,
+          "hidden_grid": 2,
+          "low_support_control_rms_m": {
+            "A1": 0.09775441507234534,
+            "A2": 0.02179626032196066,
+            "A3": 0.020973217072749455
+          },
+          "vision_weight_range": [
+            74.79846133870079,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.20334073861445734
+        },
+        {
+          "beams": 64,
+          "condition": "hole_2x4",
+          "xy": [
+            9.5,
+            -0.29999999999999716
+          ],
+          "raw_retained": 106721,
+          "raw_removed": 714,
+          "visual_removed": 9535,
+          "lidar": 2608,
+          "visual": 43518,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.513100596000001,
+          "visible_grid": 778,
+          "hidden_grid": 75,
+          "low_support_control_rms_m": {
+            "A1": 0.09815404114892398,
+            "A2": 0.022080359317840692,
+            "A3": 0.021430724631571006
+          },
+          "vision_weight_range": [
+            77.54300755553933,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.2039248855600863
+        },
+        {
+          "beams": 32,
+          "condition": "native",
+          "raw_retained": 54098,
+          "raw_removed": 0,
+          "visual_removed": 0,
+          "lidar": 1637,
+          "visual": 53053,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.48096989699999426,
+          "visible_grid": 823,
+          "hidden_grid": 0,
+          "low_support_control_rms_m": {
+            "A1": 0.0953527245950938,
+            "A2": 0.021682981783640573,
+            "A3": 0.020822631903765425
+          },
+          "vision_weight_range": [
+            77.73635752446471,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.20430017194075217
+        },
+        {
+          "beams": 32,
+          "condition": "hole_2x4",
+          "xy": [
+            9.5,
+            -0.29999999999999716
+          ],
+          "raw_retained": 53765,
+          "raw_removed": 333,
+          "visual_removed": 9576,
+          "lidar": 1304,
+          "visual": 43477,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.42884370800000227,
+          "visible_grid": 752,
+          "hidden_grid": 76,
+          "low_support_control_rms_m": {
+            "A1": 0.09771430481846063,
+            "A2": 0.021993209382388593,
+            "A3": 0.021237650998684212
+          },
+          "vision_weight_range": [
+            77.62086300762573,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.20497354519159214
+        },
+        {
+          "beams": 16,
+          "condition": "native",
+          "raw_retained": 27017,
+          "raw_removed": 0,
+          "visual_removed": 0,
+          "lidar": 860,
+          "visual": 53053,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.4184942690000071,
+          "visible_grid": 714,
+          "hidden_grid": 0,
+          "low_support_control_rms_m": {
+            "A1": 0.10965508519335121,
+            "A2": 0.024067237290137204,
+            "A3": 0.022974517653980318
+          },
+          "vision_weight_range": [
+            69.66865989307105,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.21204395345932758
+        },
+        {
+          "beams": 16,
+          "condition": "hole_2x4",
+          "xy": [
+            9.5,
+            -0.29999999999999716
+          ],
+          "raw_retained": 26830,
+          "raw_removed": 187,
+          "visual_removed": 9765,
+          "lidar": 673,
+          "visual": 43288,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.38787557499999537,
+          "visible_grid": 639,
+          "hidden_grid": 75,
+          "low_support_control_rms_m": {
+            "A1": 0.1100732855831806,
+            "A2": 0.024429531766573802,
+            "A3": 0.023655979111224815
+          },
+          "vision_weight_range": [
+            70.05816272929096,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.21371757087652704
+        }
+      ]
+    },
+    {
+      "frame": "002829",
+      "drive": "2011_09_26_drive_0113_sync",
+      "dc_full_scan_overlap_px": 5498,
+      "dc_full_scan_median_depth_delta_m": 0.027170053411960993,
+      "dc_png_sha256": "157e3e75b24419f3ad58170da7192b31183f96d84dec805267b24e14476c19c8",
+      "dc_non_input_points": 4266,
+      "dc_guarded_points": 1137,
+      "eligible_holes": [],
+      "cases": [
+        {
+          "beams": 64,
+          "condition": "native",
+          "raw_retained": 109035,
+          "raw_removed": 0,
+          "visual_removed": 0,
+          "lidar": 3709,
+          "visual": 64900,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.6575107849999995,
+          "visible_grid": 1010,
+          "hidden_grid": 5,
+          "low_support_control_rms_m": {
+            "A1": 0.08596876841761486,
+            "A2": 0.018917277164995815,
+            "A3": 0.009209001127184436
+          },
+          "vision_weight_range": [
+            26.987102409064327,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.21102098680780645
+        },
+        {
+          "beams": 32,
+          "condition": "native",
+          "raw_retained": 54906,
+          "raw_removed": 0,
+          "visual_removed": 0,
+          "lidar": 1817,
+          "visual": 64900,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.544114033999989,
+          "visible_grid": 999,
+          "hidden_grid": 2,
+          "low_support_control_rms_m": {
+            "A1": 0.08283624315777796,
+            "A2": 0.018600047459121388,
+            "A3": 0.009646426810036121
+          },
+          "vision_weight_range": [
+            28.675624887730162,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.21108977520508337
+        },
+        {
+          "beams": 16,
+          "condition": "native",
+          "raw_retained": 27435,
+          "raw_removed": 0,
+          "visual_removed": 0,
+          "lidar": 959,
+          "visual": 64900,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.4944251750000035,
+          "visible_grid": 909,
+          "hidden_grid": 0,
+          "low_support_control_rms_m": {
+            "A1": 0.08461033728563754,
+            "A2": 0.018748052350213717,
+            "A3": 0.017812658522223745
+          },
+          "vision_weight_range": [
+            45.21529064007818,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.2130512940005616
+        }
+      ]
+    },
+    {
+      "frame": "002445",
+      "drive": "2011_09_26_drive_0113_sync",
+      "dc_full_scan_overlap_px": 3052,
+      "dc_full_scan_median_depth_delta_m": 0.07601156283928923,
+      "dc_png_sha256": "5139f8f913df8c0010c3e1881311e6f11d1f95c4875b9de5081380486e4040b6",
+      "dc_non_input_points": 648,
+      "dc_guarded_points": 111,
+      "eligible_holes": [],
+      "cases": [
+        {
+          "beams": 64,
+          "condition": "native",
+          "raw_retained": 121436,
+          "raw_removed": 0,
+          "visual_removed": 0,
+          "lidar": 3237,
+          "visual": 56887,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.5611765099999957,
+          "visible_grid": 774,
+          "hidden_grid": 0,
+          "low_support_control_rms_m": {
+            "A1": 0.0345024894247002,
+            "A2": 0.005314493763441438,
+            "A3": 0.004146366216745892
+          },
+          "vision_weight_range": [
+            73.88704408670966,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.23375935905030576
+        },
+        {
+          "beams": 32,
+          "condition": "native",
+          "raw_retained": 60962,
+          "raw_removed": 0,
+          "visual_removed": 0,
+          "lidar": 1589,
+          "visual": 56887,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.48363537899999187,
+          "visible_grid": 760,
+          "hidden_grid": 0,
+          "low_support_control_rms_m": {
+            "A1": 0.03584017789935605,
+            "A2": 0.007821915595702977,
+            "A3": 0.0058871924850641116
+          },
+          "vision_weight_range": [
+            73.28696165388146,
+            250.0
+          ],
+          "median_abs_ray_jacobian": 0.23563908436327363
+        },
+        {
+          "beams": 16,
+          "condition": "native",
+          "raw_retained": 30637,
+          "raw_removed": 0,
+          "visual_removed": 0,
+          "lidar": 822,
+          "visual": 56887,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.4238253430000043,
+          "visible_grid": 717,
+          "hidden_grid": 0,
+          "low_support_control_rms_m": {
+            "A1": 0.0425735010710142,
+            "A2": 0.008248497585952978,
+            "A3": 0.006445006338037282
+          },
+          "vision_weight_range": [
+            70.44445448320135,
+            246.49584344163608
+          ],
+          "median_abs_ray_jacobian": 0.2368553853563533
+        }
+      ]
+    },
+    {
+      "frame": "006654",
+      "drive": "2011_09_26_drive_0113_sync",
+      "dc_full_scan_overlap_px": 1952,
+      "dc_full_scan_median_depth_delta_m": 0.05144434969196521,
+      "dc_png_sha256": "2e759c933789b3aa0b43edb7527facf87203cadadc74a0fd9571178072104f86",
+      "dc_non_input_points": 366,
+      "dc_guarded_points": 101,
+      "eligible_holes": [],
+      "cases": [
+        {
+          "beams": 64,
+          "condition": "native",
+          "raw_retained": 121868,
+          "raw_removed": 0,
+          "visual_removed": 0,
+          "lidar": 2663,
+          "visual": 48279,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.5031819369999937,
+          "visible_grid": 595,
+          "hidden_grid": 0,
+          "low_support_control_rms_m": {
+            "A1": 0.025818845197922363,
+            "A2": 0.003974005318884397,
+            "A3": 0.003503060819905363
+          },
+          "vision_weight_range": [
+            98.05445887041564,
+            246.99358588224118
+          ],
+          "median_abs_ray_jacobian": 0.2408101643562163
+        },
+        {
+          "beams": 32,
+          "condition": "native",
+          "raw_retained": 61237,
+          "raw_removed": 0,
+          "visual_removed": 0,
+          "lidar": 1318,
+          "visual": 48279,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.4176072529999999,
+          "visible_grid": 579,
+          "hidden_grid": 0,
+          "low_support_control_rms_m": {
+            "A1": 0.01726051706196612,
+            "A2": 0.004679781864824726,
+            "A3": 0.004554142174935053
+          },
+          "vision_weight_range": [
+            91.86894219962497,
+            246.9204300510516
+          ],
+          "median_abs_ray_jacobian": 0.24241167553067017
+        },
+        {
+          "beams": 16,
+          "condition": "native",
+          "raw_retained": 30842,
+          "raw_removed": 0,
+          "visual_removed": 0,
+          "lidar": 686,
+          "visual": 48279,
+          "alignment_failure": null,
+          "fit_and_domain_s": 0.37657519000001116,
+          "visible_grid": 568,
+          "hidden_grid": 0,
+          "low_support_control_rms_m": {
+            "A1": 0.03343901460650279,
+            "A2": 0.007928435908841918,
+            "A3": 0.006435843843734097
+          },
+          "vision_weight_range": [
+            89.52229062075769,
+            249.70800068101747
+          ],
+          "median_abs_ray_jacobian": 0.24435777218217636
+        }
+      ]
+    }
+  ]
+}

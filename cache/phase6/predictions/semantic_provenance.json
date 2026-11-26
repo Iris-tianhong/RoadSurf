@@ -1,0 +1,30 @@
+{
+  "manifest_sha256": "95d15515ee98d888109ec3b7634c0832ff80f489605526ae70b9af39fa47b8d4",
+  "source": {
+    "checkpoint": "/mnt/e/litianhong/PointPainting-master/BiSeNetv2/checkpoints/BiseNetv2_150.pth",
+    "checkpoint_sha256": "81d3d71c8d3605313d6bea34a6b423374a01731adb7074490f37e417b4d9e529",
+    "exporter_sha256": "c858c307a4a17a8431359f24f0bf208f9e3fcb5e5cff747a654b93aafe541134",
+    "source_files": {
+      "BiSeNetv2/model/BiseNetv2.py": "7586096ffca88433b26c764c5ed573e8e2cae09df70ebf83ec6b3e8fb1c39772",
+      "BiSeNetv2/utils/utils.py": "fc4d19218cd00c19d51df15b25d9be655b3da09e64264e370d07dbb6261e8879",
+      "BiSeNetv2/dataset.py": "240a77fdbd79d70766609895dde64dd1af78035e9f06cf6537d8d2b361ae12e5"
+    }
+  },
+  "elapsed_batch_s": null,
+  "semantic_sha256": {
+    "004768": "dee1ba85f1ee916534ce44bddc2f255db9cee9f446e9dad2bf48aae0f514a76d",
+    "000224": "f6e4de43226a1ce73953e15cc6bd1f241930b3fa07ce0fc2a702a0fce0cbe52a",
+    "003748": "f66e710b8bc9e9e0cf1c7c5e7a0914e1c8f20480ceac7d82471a330860e8c118",
+    "001427": "e6d0dd4941ec61edc39ea25bf5aef53851c98657213f310c84613426a1db519a",
+    "004638": "278b66c5a57f8f7d39bf375d6eb8a443e31c0c8cc1d571c1f960db1394c068e5",
+    "002908": "0a4e97708858f4572d017789078af3e1badf317fca5d948bb9c9deec0b85a18c",
+    "002064": "613565cd1d802e6603e9d3b92fde01279dd9768f1fceaa51d798b22cbb185f17",
+    "000783": "e325e0c0cc973a5974f5580836da97a93adf64a50ac38ef16ffab8427c5af927",
+    "003068": "90e4778d625640ce4c64ecd60d5bf319ddc246bb4c075c9ec9e86402dffa5000",
+    "001811": "9062ae85c29a3feeb87b7d5a49061c322e2582e729e30507ac950cab270054d3",
+    "002829": "40d501e9c79efee1ac014fe3ff753c7df6ab1a272a09f503b4a0c935cba765a6",
+    "002445": "b8c1cb0034d346ef224b12b128c3bb4707d556208afee00482fcfe80857da240",
+    "006654": "e710ad94748f84d623a2c526dee1c449950fa8c9ea12946935564e8a715b5601"
+  },
+  "recovered_from_completed_export": true
+}

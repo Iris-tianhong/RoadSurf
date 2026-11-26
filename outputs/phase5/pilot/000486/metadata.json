@@ -1,0 +1,29 @@
+{
+  "frame": "000486",
+  "split": "training",
+  "beams": 64,
+  "phase2_dir": "E:\\litianhong\\RoadSurf\\outputs\\phase2\\kitti_object\\training\\64beams\\000486",
+  "gap_kind": "observed_sensor_occlusion",
+  "version": "phase5-v1",
+  "shape": [
+    352,
+    200
+  ],
+  "visible_points": 7036,
+  "hidden_points": 6,
+  "complete_points": 7042,
+  "observed_cells_by_method": {
+    "A0": 7033,
+    "A1": 7040,
+    "A2": 7039,
+    "A3": 7036,
+    "A4": 7036
+  },
+  "fit_dtype": "float64",
+  "visual_points": 93327,
+  "fine_coefficient_l2_by_method": {
+    "A1": 0.9630681859979068,
+    "A2": 0.4339649405032885,
+    "A3": 0.4215243781480887
+  }
+}

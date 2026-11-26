@@ -1,0 +1,135 @@
+{
+  "source": "KITTI DC val / groundtruth / image_02; Object training inputs matched via Raw IDs",
+  "selection": "Three quartile frames per drive with >=10 distinct matched Raw frames.",
+  "mapping_sha256": {
+    "object_mapping": "ca9a80524adbfbebc3179987e70a8dab1488a88ba368e77715d561c901196a54",
+    "object_permutation": "0976b8b4f876f538010a9690249b60c0766d852e23acd5e07b4c3e0bd70f305f",
+    "scene_flow_mapping": "6cd7e3a60042a3cfa5e05a0b058e6872250ad28c88a704d03ac13a0764585ceb"
+  },
+  "excluded_phase3_drives": [
+    "2011_09_26_drive_0009_sync",
+    "2011_09_26_drive_0014_sync",
+    "2011_09_26_drive_0022_sync",
+    "2011_09_26_drive_0039_sync",
+    "2011_09_26_drive_0064_sync",
+    "2011_09_26_drive_0070_sync",
+    "2011_09_26_drive_0093_sync",
+    "2011_09_26_drive_0095_sync",
+    "2011_09_26_drive_0101_sync",
+    "2011_09_28_drive_0002_sync"
+  ],
+  "excluded_known_bisenet_drives": [
+    "2011_09_26_drive_0005_sync",
+    "2011_09_26_drive_0009_sync",
+    "2011_09_26_drive_0011_sync",
+    "2011_09_26_drive_0013_sync",
+    "2011_09_26_drive_0014_sync",
+    "2011_09_26_drive_0015_sync",
+    "2011_09_26_drive_0017_sync",
+    "2011_09_26_drive_0018_sync",
+    "2011_09_26_drive_0019_sync",
+    "2011_09_26_drive_0022_sync",
+    "2011_09_26_drive_0027_sync",
+    "2011_09_26_drive_0028_sync",
+    "2011_09_26_drive_0029_sync",
+    "2011_09_26_drive_0032_sync",
+    "2011_09_26_drive_0036_sync",
+    "2011_09_26_drive_0046_sync",
+    "2011_09_26_drive_0051_sync",
+    "2011_09_26_drive_0056_sync",
+    "2011_09_26_drive_0057_sync",
+    "2011_09_26_drive_0059_sync",
+    "2011_09_26_drive_0070_sync",
+    "2011_09_26_drive_0084_sync",
+    "2011_09_26_drive_0096_sync",
+    "2011_09_26_drive_0101_sync",
+    "2011_09_26_drive_0104_sync",
+    "2011_09_28_drive_0002_sync",
+    "2011_09_29_drive_0004_sync",
+    "2011_09_29_drive_0071_sync",
+    "2011_10_03_drive_0047_sync"
+  ],
+  "eligible_counts": {
+    "2011_09_26_drive_0002_sync": 6,
+    "2011_09_26_drive_0020_sync": 12,
+    "2011_09_26_drive_0023_sync": 254,
+    "2011_09_26_drive_0079_sync": 3,
+    "2011_09_26_drive_0113_sync": 4,
+    "2011_09_28_drive_0037_sync": 20,
+    "2011_09_29_drive_0026_sync": 45
+  },
+  "frames": [
+    {
+      "frame": "000575",
+      "drive": "2011_09_26_drive_0020_sync",
+      "raw_frame": "0000000013",
+      "depth_png": "data_depth_annotated/val/2011_09_26_drive_0020_sync/proj_depth/groundtruth/image_02/0000000013.png"
+    },
+    {
+      "frame": "006242",
+      "drive": "2011_09_26_drive_0020_sync",
+      "raw_frame": "0000000025",
+      "depth_png": "data_depth_annotated/val/2011_09_26_drive_0020_sync/proj_depth/groundtruth/image_02/0000000025.png"
+    },
+    {
+      "frame": "004347",
+      "drive": "2011_09_26_drive_0020_sync",
+      "raw_frame": "0000000058",
+      "depth_png": "data_depth_annotated/val/2011_09_26_drive_0020_sync/proj_depth/groundtruth/image_02/0000000058.png"
+    },
+    {
+      "frame": "005057",
+      "drive": "2011_09_26_drive_0023_sync",
+      "raw_frame": "0000000132",
+      "depth_png": "data_depth_annotated/val/2011_09_26_drive_0023_sync/proj_depth/groundtruth/image_02/0000000132.png"
+    },
+    {
+      "frame": "004909",
+      "drive": "2011_09_26_drive_0023_sync",
+      "raw_frame": "0000000236",
+      "depth_png": "data_depth_annotated/val/2011_09_26_drive_0023_sync/proj_depth/groundtruth/image_02/0000000236.png"
+    },
+    {
+      "frame": "001125",
+      "drive": "2011_09_26_drive_0023_sync",
+      "raw_frame": "0000000336",
+      "depth_png": "data_depth_annotated/val/2011_09_26_drive_0023_sync/proj_depth/groundtruth/image_02/0000000336.png"
+    },
+    {
+      "frame": "002289",
+      "drive": "2011_09_28_drive_0037_sync",
+      "raw_frame": "0000000050",
+      "depth_png": "data_depth_annotated/val/2011_09_28_drive_0037_sync/proj_depth/groundtruth/image_02/0000000050.png"
+    },
+    {
+      "frame": "005696",
+      "drive": "2011_09_28_drive_0037_sync",
+      "raw_frame": "0000000060",
+      "depth_png": "data_depth_annotated/val/2011_09_28_drive_0037_sync/proj_depth/groundtruth/image_02/0000000060.png"
+    },
+    {
+      "frame": "006006",
+      "drive": "2011_09_28_drive_0037_sync",
+      "raw_frame": "0000000072",
+      "depth_png": "data_depth_annotated/val/2011_09_28_drive_0037_sync/proj_depth/groundtruth/image_02/0000000072.png"
+    },
+    {
+      "frame": "007172",
+      "drive": "2011_09_29_drive_0026_sync",
+      "raw_frame": "0000000049",
+      "depth_png": "data_depth_annotated/val/2011_09_29_drive_0026_sync/proj_depth/groundtruth/image_02/0000000049.png"
+    },
+    {
+      "frame": "000006",
+      "drive": "2011_09_29_drive_0026_sync",
+      "raw_frame": "0000000082",
+      "depth_png": "data_depth_annotated/val/2011_09_29_drive_0026_sync/proj_depth/groundtruth/image_02/0000000082.png"
+    },
+    {
+      "frame": "003669",
+      "drive": "2011_09_29_drive_0026_sync",
+      "raw_frame": "0000000112",
+      "depth_png": "data_depth_annotated/val/2011_09_29_drive_0026_sync/proj_depth/groundtruth/image_02/0000000112.png"
+    }
+  ]
+}
